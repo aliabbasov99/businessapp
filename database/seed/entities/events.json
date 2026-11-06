@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "branchId": 1,
+    "type": "receipt_cancelled",
+    "occurredAt": 1793701920000,
+    "receiptNumber": 1048,
+    "amountMinor": 4800,
+    "reason": "sifariş dəyişdirilib"
+  },
+  {
+    "id": 2,
+    "branchId": 2,
+    "type": "discount_applied",
+    "occurredAt": 1793614680000,
+    "receiptNumber": 1041,
+    "discountPercent": 20
+  },
+  {
+    "id": 3,
+    "businessId": 1,
+    "type": "daily_report_ready",
+    "occurredAt": 1793553120000
+  }
+]

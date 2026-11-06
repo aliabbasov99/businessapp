@@ -1,0 +1,36 @@
+{
+  "id": 1,
+  "businessId": 1,
+  "startsAt": 1793476800000,
+  "asOf": 1793701920000,
+  "sales": {
+    "revenueMinor": 62452900,
+    "costMinor": 55000000,
+    "revenueChangePercent": -8.2,
+    "costChangePercent": 0.1,
+    "profitChangePercent": -43
+  },
+  "inventory": {
+    "quantity": 18420,
+    "costMinor": 118026600,
+    "retailMinor": 145860000,
+    "quantityChangePercent": 3.5,
+    "costChangePercent": 8.6,
+    "retailChangePercent": 4.3
+  },
+  "suppliers": {
+    "debtMinor": 477853200,
+    "purchasesMinor": 145000000,
+    "interestMinor": 2450000,
+    "debtChangePercent": 2.9,
+    "purchasesChangePercent": 3.9,
+    "interestChangePercent": -12.5
+  },
+  "cash": {
+    "inflowMinor": 31284000,
+    "outflowMinor": 2828000,
+    "balanceChangePercent": 6.2,
+    "inflowChangePercent": -10.1,
+    "outflowChangePercent": -64.7
+  }
+}

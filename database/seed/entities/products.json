@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "businessId": 1,
+    "name": "Arabika qəhvəsi",
+    "code": "4017",
+    "unit": "kg",
+    "costPriceMinor": 2200,
+    "salePriceMinor": 3200
+  },
+  {
+    "id": 2,
+    "businessId": 1,
+    "name": "Süd",
+    "code": "2901400001018",
+    "unit": "liter",
+    "costPriceMinor": 160,
+    "salePriceMinor": 230
+  },
+  {
+    "id": 3,
+    "businessId": 1,
+    "name": "Qablaşdırma qutusu",
+    "code": "2901400001025",
+    "unit": "box",
+    "costPriceMinor": 35,
+    "salePriceMinor": 55
+  },
+  {
+    "id": 4,
+    "businessId": 1,
+    "name": "Un",
+    "code": "4026",
+    "unit": "kg",
+    "costPriceMinor": 120,
+    "salePriceMinor": 180
+  },
+  {
+    "id": 5,
+    "businessId": 1,
+    "name": "Zeytun yağı",
+    "code": "2901400001032",
+    "unit": "liter",
+    "costPriceMinor": 1300,
+    "salePriceMinor": 1900
+  },
+  {
+    "id": 6,
+    "businessId": 1,
+    "name": "Mineral su",
+    "code": "2901400001049",
+    "unit": "piece",
+    "costPriceMinor": 45,
+    "salePriceMinor": 80
+  },
+  {
+    "id": 7,
+    "businessId": 1,
+    "name": "Tomat sousu",
+    "code": "2901400001056",
+    "unit": "piece",
+    "costPriceMinor": 240,
+    "salePriceMinor": 360
+  },
+  {
+    "id": 8,
+    "businessId": 1,
+    "name": "Kağız stəkan",
+    "code": "2901400001063",
+    "unit": "piece",
+    "costPriceMinor": 12,
+    "salePriceMinor": 20
+  }
+]

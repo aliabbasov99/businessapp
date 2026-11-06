@@ -1,0 +1,443 @@
+[
+  {
+    "id": 10482,
+    "branchId": 1,
+    "receiptNumber": 10482,
+    "occurredAt": 1793701920000,
+    "amountMinor": 12850,
+    "paymentMethod": "card",
+    "type": "sale"
+  },
+  {
+    "id": 10481,
+    "branchId": 1,
+    "receiptNumber": 10481,
+    "occurredAt": 1793701620000,
+    "amountMinor": 6400,
+    "paymentMethod": "cash",
+    "type": "sale"
+  },
+  {
+    "id": 10480,
+    "branchId": 1,
+    "receiptNumber": 10480,
+    "occurredAt": 1793701140000,
+    "amountMinor": -9370,
+    "paymentMethod": "card",
+    "type": "refund"
+  },
+  {
+    "id": 10479,
+    "branchId": 1,
+    "receiptNumber": 10479,
+    "occurredAt": 1793700480000,
+    "amountMinor": 4720,
+    "paymentMethod": "cash",
+    "type": "sale"
+  },
+  {
+    "id": 10478,
+    "branchId": 1,
+    "receiptNumber": 10478,
+    "occurredAt": 1793699760000,
+    "amountMinor": 15600,
+    "paymentMethod": "card",
+    "type": "sale"
+  },
+  {
+    "id": 10477,
+    "branchId": 1,
+    "receiptNumber": 10477,
+    "occurredAt": 1793698860000,
+    "amountMinor": 3890,
+    "paymentMethod": "cash",
+    "type": "sale"
+  },
+  {
+    "id": 10476,
+    "branchId": 1,
+    "receiptNumber": 10476,
+    "occurredAt": 1793697900000,
+    "amountMinor": 21200,
+    "paymentMethod": "card",
+    "type": "sale"
+  },
+  {
+    "id": 10475,
+    "branchId": 1,
+    "receiptNumber": 10475,
+    "occurredAt": 1793697000000,
+    "amountMinor": 2750,
+    "paymentMethod": "cash",
+    "type": "sale"
+  },
+  {
+    "id": 10474,
+    "branchId": 1,
+    "receiptNumber": 10474,
+    "occurredAt": 1793696760000,
+    "amountMinor": 15386,
+    "paymentMethod": "card",
+    "type": "sale"
+  },
+  {
+    "id": 10473,
+    "branchId": 1,
+    "receiptNumber": 10473,
+    "occurredAt": 1793696520000,
+    "amountMinor": 9253,
+    "paymentMethod": "cash",
+    "type": "sale"
+  },
+  {
+    "id": 10472,
+    "branchId": 1,
+    "receiptNumber": 10472,
+    "occurredAt": 1793696280000,
+    "amountMinor": -12540,
+    "paymentMethod": "card",
+    "type": "refund"
+  },
+  {
+    "id": 10471,
+    "branchId": 1,
+    "receiptNumber": 10471,
+    "occurredAt": 1793696040000,
+    "amountMinor": 8207,
+    "paymentMethod": "cash",
+    "type": "sale"
+  },
+  {
+    "id": 10470,
+    "branchId": 1,
+    "receiptNumber": 10470,
+    "occurredAt": 1793695800000,
+    "amountMinor": 19404,
+    "paymentMethod": "card",
+    "type": "sale"
+  },
+  {
+    "id": 10469,
+    "branchId": 1,
+    "receiptNumber": 10469,
+    "occurredAt": 1793695560000,
+    "amountMinor": 12361,
+    "paymentMethod": "card",
+    "type": "sale"
+  },
+  {
+    "id": 10468,
+    "branchId": 1,
+    "receiptNumber": 10468,
+    "occurredAt": 1793695320000,
+    "amountMinor": 8298,
+    "paymentMethod": "cash",
+    "type": "sale"
+  },
+  {
+    "id": 10467,
+    "branchId": 1,
+    "receiptNumber": 10467,
+    "occurredAt": 1793695080000,
+    "amountMinor": 16045,
+    "paymentMethod": "card",
+    "type": "sale"
+  },
+  {
+    "id": 10466,
+    "branchId": 1,
+    "receiptNumber": 10466,
+    "occurredAt": 1793694840000,
+    "amountMinor": 17922,
+    "paymentMethod": "card",
+    "type": "sale"
+  },
+  {
+    "id": 10465,
+    "branchId": 1,
+    "receiptNumber": 10465,
+    "occurredAt": 1793694600000,
+    "amountMinor": 11789,
+    "paymentMethod": "cash",
+    "type": "sale"
+  },
+  {
+    "id": 10464,
+    "branchId": 1,
+    "receiptNumber": 10464,
+    "occurredAt": 1793694360000,
+    "amountMinor": -15076,
+    "paymentMethod": "card",
+    "type": "refund"
+  },
+  {
+    "id": 10463,
+    "branchId": 1,
+    "receiptNumber": 10463,
+    "occurredAt": 1793694120000,
+    "amountMinor": 10743,
+    "paymentMethod": "cash",
+    "type": "sale"
+  },
+  {
+    "id": 10462,
+    "branchId": 1,
+    "receiptNumber": 10462,
+    "occurredAt": 1793693880000,
+    "amountMinor": 21940,
+    "paymentMethod": "card",
+    "type": "sale"
+  },
+  {
+    "id": 10461,
+    "branchId": 1,
+    "receiptNumber": 10461,
+    "occurredAt": 1793693640000,
+    "amountMinor": 14897,
+    "paymentMethod": "card",
+    "type": "sale"
+  },
+  {
+    "id": 10460,
+    "branchId": 1,
+    "receiptNumber": 10460,
+    "occurredAt": 1793693400000,
+    "amountMinor": 10834,
+    "paymentMethod": "cash",
+    "type": "sale"
+  },
+  {
+    "id": 10459,
+    "branchId": 1,
+    "receiptNumber": 10459,
+    "occurredAt": 1793693160000,
+    "amountMinor": 18581,
+    "paymentMethod": "card",
+    "type": "sale"
+  },
+  {
+    "id": 10458,
+    "branchId": 1,
+    "receiptNumber": 10458,
+    "occurredAt": 1793692920000,
+    "amountMinor": 20458,
+    "paymentMethod": "card",
+    "type": "sale"
+  },
+  {
+    "id": 10457,
+    "branchId": 1,
+    "receiptNumber": 10457,
+    "occurredAt": 1793692680000,
+    "amountMinor": 14325,
+    "paymentMethod": "cash",
+    "type": "sale"
+  },
+  {
+    "id": 10456,
+    "branchId": 1,
+    "receiptNumber": 10456,
+    "occurredAt": 1793692440000,
+    "amountMinor": -17612,
+    "paymentMethod": "card",
+    "type": "refund"
+  },
+  {
+    "id": 10455,
+    "branchId": 1,
+    "receiptNumber": 10455,
+    "occurredAt": 1793692200000,
+    "amountMinor": 13279,
+    "paymentMethod": "cash",
+    "type": "sale"
+  },
+  {
+    "id": 10454,
+    "branchId": 1,
+    "receiptNumber": 10454,
+    "occurredAt": 1793691960000,
+    "amountMinor": 24476,
+    "paymentMethod": "card",
+    "type": "sale"
+  },
+  {
+    "id": 10453,
+    "branchId": 1,
+    "receiptNumber": 10453,
+    "occurredAt": 1793691720000,
+    "amountMinor": 17433,
+    "paymentMethod": "card",
+    "type": "sale"
+  },
+  {
+    "id": 10452,
+    "branchId": 1,
+    "receiptNumber": 10452,
+    "occurredAt": 1793691480000,
+    "amountMinor": 4170,
+    "paymentMethod": "cash",
+    "type": "sale"
+  },
+  {
+    "id": 10451,
+    "branchId": 1,
+    "receiptNumber": 10451,
+    "occurredAt": 1793691240000,
+    "amountMinor": 11917,
+    "paymentMethod": "card",
+    "type": "sale"
+  },
+  {
+    "id": 10450,
+    "branchId": 1,
+    "receiptNumber": 10450,
+    "occurredAt": 1793691000000,
+    "amountMinor": 13794,
+    "paymentMethod": "card",
+    "type": "sale"
+  },
+  {
+    "id": 10449,
+    "branchId": 1,
+    "receiptNumber": 10449,
+    "occurredAt": 1793690760000,
+    "amountMinor": 7661,
+    "paymentMethod": "cash",
+    "type": "sale"
+  },
+  {
+    "id": 10448,
+    "branchId": 1,
+    "receiptNumber": 10448,
+    "occurredAt": 1793690520000,
+    "amountMinor": -10948,
+    "paymentMethod": "card",
+    "type": "refund"
+  },
+  {
+    "id": 10447,
+    "branchId": 1,
+    "receiptNumber": 10447,
+    "occurredAt": 1793690280000,
+    "amountMinor": 6615,
+    "paymentMethod": "cash",
+    "type": "sale"
+  },
+  {
+    "id": 10446,
+    "branchId": 1,
+    "receiptNumber": 10446,
+    "occurredAt": 1793690040000,
+    "amountMinor": 17812,
+    "paymentMethod": "card",
+    "type": "sale"
+  },
+  {
+    "id": 10445,
+    "branchId": 1,
+    "receiptNumber": 10445,
+    "occurredAt": 1793689800000,
+    "amountMinor": 10769,
+    "paymentMethod": "card",
+    "type": "sale"
+  },
+  {
+    "id": 10444,
+    "branchId": 1,
+    "receiptNumber": 10444,
+    "occurredAt": 1793689560000,
+    "amountMinor": 6706,
+    "paymentMethod": "cash",
+    "type": "sale"
+  },
+  {
+    "id": 10443,
+    "branchId": 1,
+    "receiptNumber": 10443,
+    "occurredAt": 1793689320000,
+    "amountMinor": 14453,
+    "paymentMethod": "card",
+    "type": "sale"
+  },
+  {
+    "id": 10442,
+    "branchId": 1,
+    "receiptNumber": 10442,
+    "occurredAt": 1793689080000,
+    "amountMinor": 16330,
+    "paymentMethod": "card",
+    "type": "sale"
+  },
+  {
+    "id": 10441,
+    "branchId": 1,
+    "receiptNumber": 10441,
+    "occurredAt": 1793688840000,
+    "amountMinor": 10197,
+    "paymentMethod": "cash",
+    "type": "sale"
+  },
+  {
+    "id": 10440,
+    "branchId": 1,
+    "receiptNumber": 10440,
+    "occurredAt": 1793688600000,
+    "amountMinor": -13484,
+    "paymentMethod": "card",
+    "type": "refund"
+  },
+  {
+    "id": 10439,
+    "branchId": 1,
+    "receiptNumber": 10439,
+    "occurredAt": 1793688360000,
+    "amountMinor": 9151,
+    "paymentMethod": "cash",
+    "type": "sale"
+  },
+  {
+    "id": 10438,
+    "branchId": 1,
+    "receiptNumber": 10438,
+    "occurredAt": 1793688120000,
+    "amountMinor": 20348,
+    "paymentMethod": "card",
+    "type": "sale"
+  },
+  {
+    "id": 10437,
+    "branchId": 1,
+    "receiptNumber": 10437,
+    "occurredAt": 1793687880000,
+    "amountMinor": 13305,
+    "paymentMethod": "card",
+    "type": "sale"
+  },
+  {
+    "id": 10436,
+    "branchId": 1,
+    "receiptNumber": 10436,
+    "occurredAt": 1793687640000,
+    "amountMinor": 9242,
+    "paymentMethod": "cash",
+    "type": "sale"
+  },
+  {
+    "id": 10435,
+    "branchId": 1,
+    "receiptNumber": 10435,
+    "occurredAt": 1793687400000,
+    "amountMinor": 16989,
+    "paymentMethod": "card",
+    "type": "sale"
+  },
+  {
+    "id": 10434,
+    "branchId": 1,
+    "receiptNumber": 10434,
+    "occurredAt": 1793687160000,
+    "amountMinor": 18866,
+    "paymentMethod": "card",
+    "type": "sale"
+  }
+]

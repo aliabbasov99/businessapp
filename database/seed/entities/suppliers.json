@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "businessId": 1,
+    "name": "Bağ Səbəti MMC",
+    "taxId": "1307752521",
+    "phone": "+994552553435",
+    "balanceMinor": -284000,
+    "depositMinor": 50000
+  },
+  {
+    "id": 2,
+    "businessId": 1,
+    "name": "Dənli Ticarət MMC",
+    "taxId": "2104869371",
+    "phone": "+994101113435",
+    "balanceMinor": -136000,
+    "depositMinor": 25000
+  },
+  {
+    "id": 3,
+    "businessId": 1,
+    "name": "Sərin Su MMC",
+    "taxId": "1605928341",
+    "phone": "+994503184627",
+    "balanceMinor": 62000,
+    "depositMinor": 10000
+  },
+  {
+    "id": 4,
+    "businessId": 1,
+    "name": "Qutu Təchizat MMC",
+    "taxId": "1508314761",
+    "phone": "+994704267318",
+    "balanceMinor": 18000,
+    "depositMinor": 0
+  },
+  {
+    "id": 5,
+    "businessId": 1,
+    "name": "Yaylaq Süd MMC",
+    "taxId": "2206831471",
+    "phone": "+994512648732",
+    "balanceMinor": -192000,
+    "depositMinor": 30000
+  },
+  {
+    "id": 6,
+    "businessId": 1,
+    "name": "Nar Bağı MMC",
+    "taxId": "1804739261",
+    "phone": "+994556482173",
+    "balanceMinor": 34000,
+    "depositMinor": 15000
+  },
+  {
+    "id": 7,
+    "businessId": 1,
+    "name": "Ləzzət Ərzaq MMC",
+    "taxId": "1708263541",
+    "phone": "+994103946218",
+    "balanceMinor": -356000,
+    "depositMinor": 40000
+  },
+  {
+    "id": 8,
+    "businessId": 1,
+    "name": "Süfrə Ticarət MMC",
+    "taxId": "1405972861",
+    "phone": "+994775124936",
+    "balanceMinor": 29000,
+    "depositMinor": 20000
+  }
+]

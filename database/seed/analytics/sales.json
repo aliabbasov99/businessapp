@@ -1,0 +1,551 @@
+[
+  {
+    "id": 1,
+    "businessId": 1,
+    "periodId": 1,
+    "points": [
+      {
+        "bucketId": 1,
+        "customerCount": 40,
+        "revenueMinor": 125254,
+        "costMinor": 105214
+      },
+      {
+        "bucketId": 2,
+        "customerCount": 55,
+        "revenueMinor": 155316,
+        "costMinor": 135275
+      },
+      {
+        "bucketId": 3,
+        "customerCount": 30,
+        "revenueMinor": 110223,
+        "costMinor": 97197
+      },
+      {
+        "bucketId": 4,
+        "customerCount": 85,
+        "revenueMinor": 220448,
+        "costMinor": 187380
+      },
+      {
+        "bucketId": 5,
+        "customerCount": 65,
+        "revenueMinor": 178362,
+        "costMinor": 155315
+      },
+      {
+        "bucketId": 6,
+        "customerCount": 95,
+        "revenueMinor": 260529,
+        "costMinor": 230468
+      },
+      {
+        "bucketId": 7,
+        "customerCount": 80,
+        "revenueMinor": 230468,
+        "costMinor": 195397
+      }
+    ],
+    "branchId": null,
+    "changePercent": 12.4
+  },
+  {
+    "id": 4,
+    "businessId": 1,
+    "periodId": 1,
+    "points": [
+      {
+        "bucketId": 1,
+        "customerCount": 23,
+        "revenueMinor": 70814,
+        "costMinor": 59484
+      },
+      {
+        "bucketId": 2,
+        "customerCount": 31,
+        "revenueMinor": 87809,
+        "costMinor": 76479
+      },
+      {
+        "bucketId": 3,
+        "customerCount": 17,
+        "revenueMinor": 62316,
+        "costMinor": 54951
+      },
+      {
+        "bucketId": 4,
+        "customerCount": 48,
+        "revenueMinor": 124632,
+        "costMinor": 105937
+      },
+      {
+        "bucketId": 5,
+        "customerCount": 37,
+        "revenueMinor": 100839,
+        "costMinor": 87809
+      },
+      {
+        "bucketId": 6,
+        "customerCount": 54,
+        "revenueMinor": 147293,
+        "costMinor": 130297
+      },
+      {
+        "bucketId": 7,
+        "customerCount": 45,
+        "revenueMinor": 130297,
+        "costMinor": 110470
+      }
+    ],
+    "branchId": 1,
+    "changePercent": 12.4
+  },
+  {
+    "id": 7,
+    "businessId": 1,
+    "periodId": 1,
+    "points": [
+      {
+        "bucketId": 1,
+        "customerCount": 17,
+        "revenueMinor": 54440,
+        "costMinor": 45730
+      },
+      {
+        "bucketId": 2,
+        "customerCount": 24,
+        "revenueMinor": 67507,
+        "costMinor": 58796
+      },
+      {
+        "bucketId": 3,
+        "customerCount": 13,
+        "revenueMinor": 47907,
+        "costMinor": 42246
+      },
+      {
+        "bucketId": 4,
+        "customerCount": 37,
+        "revenueMinor": 95816,
+        "costMinor": 81443
+      },
+      {
+        "bucketId": 5,
+        "customerCount": 28,
+        "revenueMinor": 77523,
+        "costMinor": 67506
+      },
+      {
+        "bucketId": 6,
+        "customerCount": 41,
+        "revenueMinor": 113236,
+        "costMinor": 100171
+      },
+      {
+        "bucketId": 7,
+        "customerCount": 35,
+        "revenueMinor": 100171,
+        "costMinor": 84927
+      }
+    ],
+    "branchId": 2,
+    "changePercent": 12.4
+  },
+  {
+    "id": 2,
+    "businessId": 1,
+    "periodId": 2,
+    "points": [
+      {
+        "bucketId": 8,
+        "customerCount": 150,
+        "revenueMinor": 579786,
+        "costMinor": 479823
+      },
+      {
+        "bucketId": 9,
+        "customerCount": 170,
+        "revenueMinor": 659757,
+        "costMinor": 569790
+      },
+      {
+        "bucketId": 10,
+        "customerCount": 120,
+        "revenueMinor": 499816,
+        "costMinor": 439838
+      },
+      {
+        "bucketId": 11,
+        "customerCount": 350,
+        "revenueMinor": 929658,
+        "costMinor": 779713
+      },
+      {
+        "bucketId": 12,
+        "customerCount": 450,
+        "revenueMinor": 1309517,
+        "costMinor": 1129584
+      },
+      {
+        "bucketId": 13,
+        "customerCount": 500,
+        "revenueMinor": 1449466,
+        "costMinor": 1269532
+      }
+    ],
+    "branchId": null,
+    "changePercent": 8.2
+  },
+  {
+    "id": 5,
+    "businessId": 1,
+    "periodId": 2,
+    "points": [
+      {
+        "bucketId": 8,
+        "customerCount": 87,
+        "revenueMinor": 337532,
+        "costMinor": 279337
+      },
+      {
+        "bucketId": 9,
+        "customerCount": 99,
+        "revenueMinor": 384088,
+        "costMinor": 331713
+      },
+      {
+        "bucketId": 10,
+        "customerCount": 70,
+        "revenueMinor": 290976,
+        "costMinor": 256059
+      },
+      {
+        "bucketId": 11,
+        "customerCount": 204,
+        "revenueMinor": 541216,
+        "costMinor": 453923
+      },
+      {
+        "bucketId": 12,
+        "customerCount": 262,
+        "revenueMinor": 762357,
+        "costMinor": 657606
+      },
+      {
+        "bucketId": 13,
+        "customerCount": 291,
+        "revenueMinor": 843831,
+        "costMinor": 739079
+      }
+    ],
+    "branchId": 1,
+    "changePercent": 8.2
+  },
+  {
+    "id": 8,
+    "businessId": 1,
+    "periodId": 2,
+    "points": [
+      {
+        "bucketId": 8,
+        "customerCount": 63,
+        "revenueMinor": 242254,
+        "costMinor": 200486
+      },
+      {
+        "bucketId": 9,
+        "customerCount": 71,
+        "revenueMinor": 275669,
+        "costMinor": 238077
+      },
+      {
+        "bucketId": 10,
+        "customerCount": 50,
+        "revenueMinor": 208840,
+        "costMinor": 183779
+      },
+      {
+        "bucketId": 11,
+        "customerCount": 146,
+        "revenueMinor": 388442,
+        "costMinor": 325790
+      },
+      {
+        "bucketId": 12,
+        "customerCount": 188,
+        "revenueMinor": 547160,
+        "costMinor": 471978
+      },
+      {
+        "bucketId": 13,
+        "customerCount": 209,
+        "revenueMinor": 605635,
+        "costMinor": 530453
+      }
+    ],
+    "branchId": 2,
+    "changePercent": 8.2
+  },
+  {
+    "id": 3,
+    "businessId": 1,
+    "periodId": 3,
+    "points": [
+      {
+        "bucketId": 14,
+        "customerCount": 210000,
+        "revenueMinor": 160000000,
+        "costMinor": 142000000
+      },
+      {
+        "bucketId": 15,
+        "customerCount": 200000,
+        "revenueMinor": 150000000,
+        "costMinor": 132000000
+      },
+      {
+        "bucketId": 16,
+        "customerCount": 208000,
+        "revenueMinor": 160000000,
+        "costMinor": 142000000
+      },
+      {
+        "bucketId": 17,
+        "customerCount": 185000,
+        "revenueMinor": 130000000,
+        "costMinor": 115000000
+      },
+      {
+        "bucketId": 18,
+        "customerCount": 172000,
+        "revenueMinor": 125000000,
+        "costMinor": 110000000
+      },
+      {
+        "bucketId": 19,
+        "customerCount": 180000,
+        "revenueMinor": 140000000,
+        "costMinor": 122000000
+      },
+      {
+        "bucketId": 20,
+        "customerCount": 175000,
+        "revenueMinor": 125000000,
+        "costMinor": 110000000
+      },
+      {
+        "bucketId": 21,
+        "customerCount": 188000,
+        "revenueMinor": 134000000,
+        "costMinor": 117000000
+      },
+      {
+        "bucketId": 22,
+        "customerCount": 178000,
+        "revenueMinor": 120000000,
+        "costMinor": 107000000
+      },
+      {
+        "bucketId": 23,
+        "customerCount": 183000,
+        "revenueMinor": 118000000,
+        "costMinor": 104000000
+      },
+      {
+        "bucketId": 24,
+        "customerCount": 182000,
+        "revenueMinor": 118000000,
+        "costMinor": 104000000
+      },
+      {
+        "bucketId": 25,
+        "customerCount": 170000,
+        "revenueMinor": 114000000,
+        "costMinor": 100000000
+      },
+      {
+        "bucketId": 26,
+        "customerCount": 96000,
+        "revenueMinor": 62452900,
+        "costMinor": 55000000
+      }
+    ],
+    "branchId": null,
+    "changePercent": 16.7
+  },
+  {
+    "id": 6,
+    "businessId": 1,
+    "periodId": 3,
+    "points": [
+      {
+        "bucketId": 14,
+        "customerCount": 121232,
+        "revenueMinor": 92366935,
+        "costMinor": 81975654
+      },
+      {
+        "bucketId": 15,
+        "customerCount": 115459,
+        "revenueMinor": 86594001,
+        "costMinor": 76202721
+      },
+      {
+        "bucketId": 16,
+        "customerCount": 120077,
+        "revenueMinor": 92366935,
+        "costMinor": 81975654
+      },
+      {
+        "bucketId": 17,
+        "customerCount": 106799,
+        "revenueMinor": 75048134,
+        "costMinor": 66388734
+      },
+      {
+        "bucketId": 18,
+        "customerCount": 99294,
+        "revenueMinor": 72161668,
+        "costMinor": 63502267
+      },
+      {
+        "bucketId": 19,
+        "customerCount": 103913,
+        "revenueMinor": 80821068,
+        "costMinor": 70429788
+      },
+      {
+        "bucketId": 20,
+        "customerCount": 101026,
+        "revenueMinor": 72161668,
+        "costMinor": 63502267
+      },
+      {
+        "bucketId": 21,
+        "customerCount": 108531,
+        "revenueMinor": 77357308,
+        "costMinor": 67543321
+      },
+      {
+        "bucketId": 22,
+        "customerCount": 102758,
+        "revenueMinor": 69275201,
+        "costMinor": 61770387
+      },
+      {
+        "bucketId": 23,
+        "customerCount": 105645,
+        "revenueMinor": 68120614,
+        "costMinor": 60038507
+      },
+      {
+        "bucketId": 24,
+        "customerCount": 105067,
+        "revenueMinor": 68120614,
+        "costMinor": 60038507
+      },
+      {
+        "bucketId": 25,
+        "customerCount": 98140,
+        "revenueMinor": 65811441,
+        "costMinor": 57729334
+      },
+      {
+        "bucketId": 26,
+        "customerCount": 55420,
+        "revenueMinor": 36053643,
+        "costMinor": 31751134
+      }
+    ],
+    "branchId": 1,
+    "changePercent": 16.7
+  },
+  {
+    "id": 9,
+    "businessId": 1,
+    "periodId": 3,
+    "points": [
+      {
+        "bucketId": 14,
+        "customerCount": 88768,
+        "revenueMinor": 67633065,
+        "costMinor": 60024346
+      },
+      {
+        "bucketId": 15,
+        "customerCount": 84541,
+        "revenueMinor": 63405999,
+        "costMinor": 55797279
+      },
+      {
+        "bucketId": 16,
+        "customerCount": 87923,
+        "revenueMinor": 67633065,
+        "costMinor": 60024346
+      },
+      {
+        "bucketId": 17,
+        "customerCount": 78201,
+        "revenueMinor": 54951866,
+        "costMinor": 48611266
+      },
+      {
+        "bucketId": 18,
+        "customerCount": 72706,
+        "revenueMinor": 52838332,
+        "costMinor": 46497733
+      },
+      {
+        "bucketId": 19,
+        "customerCount": 76087,
+        "revenueMinor": 59178932,
+        "costMinor": 51570212
+      },
+      {
+        "bucketId": 20,
+        "customerCount": 73974,
+        "revenueMinor": 52838332,
+        "costMinor": 46497733
+      },
+      {
+        "bucketId": 21,
+        "customerCount": 79469,
+        "revenueMinor": 56642692,
+        "costMinor": 49456679
+      },
+      {
+        "bucketId": 22,
+        "customerCount": 75242,
+        "revenueMinor": 50724799,
+        "costMinor": 45229613
+      },
+      {
+        "bucketId": 23,
+        "customerCount": 77355,
+        "revenueMinor": 49879386,
+        "costMinor": 43961493
+      },
+      {
+        "bucketId": 24,
+        "customerCount": 76933,
+        "revenueMinor": 49879386,
+        "costMinor": 43961493
+      },
+      {
+        "bucketId": 25,
+        "customerCount": 71860,
+        "revenueMinor": 48188559,
+        "costMinor": 42270666
+      },
+      {
+        "bucketId": 26,
+        "customerCount": 40580,
+        "revenueMinor": 26399257,
+        "costMinor": 23248866
+      }
+    ],
+    "branchId": 2,
+    "changePercent": 16.7
+  }
+]

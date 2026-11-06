@@ -1,0 +1,231 @@
+[
+  {
+    "id": 1,
+    "businessId": 1,
+    "periodId": 1,
+    "points": [
+      {
+        "bucketId": 1,
+        "salesMinor": 12932200,
+        "costMinor": 10440900,
+        "quantity": 79334,
+        "unsoldAmountMinor": 4628800,
+        "unsoldQuantity": 40706
+      },
+      {
+        "bucketId": 2,
+        "salesMinor": 10682100,
+        "costMinor": 9373000,
+        "quantity": 57829,
+        "unsoldAmountMinor": 3803200,
+        "unsoldQuantity": 13985
+      },
+      {
+        "bucketId": 3,
+        "salesMinor": 9774500,
+        "costMinor": 8095700,
+        "quantity": 47149,
+        "unsoldAmountMinor": 3148000,
+        "unsoldQuantity": 12444
+      },
+      {
+        "bucketId": 4,
+        "salesMinor": 8833100,
+        "costMinor": 7013400,
+        "quantity": 43085,
+        "unsoldAmountMinor": 3326600,
+        "unsoldQuantity": 14100
+      },
+      {
+        "bucketId": 5,
+        "salesMinor": 8356700,
+        "costMinor": 7410400,
+        "quantity": 54089,
+        "unsoldAmountMinor": 3485100,
+        "unsoldQuantity": 14882
+      },
+      {
+        "bucketId": 6,
+        "salesMinor": 8202100,
+        "costMinor": 7017600,
+        "quantity": 42875,
+        "unsoldAmountMinor": 2917100,
+        "unsoldQuantity": 12449
+      },
+      {
+        "bucketId": 7,
+        "salesMinor": 8404000,
+        "costMinor": 6838400,
+        "quantity": 44237,
+        "unsoldAmountMinor": 3032600,
+        "unsoldQuantity": 12541
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "businessId": 1,
+    "periodId": 2,
+    "points": [
+      {
+        "bucketId": 8,
+        "salesMinor": 53884100,
+        "costMinor": 43503800,
+        "quantity": 330558,
+        "unsoldAmountMinor": 19286900,
+        "unsoldQuantity": 169607
+      },
+      {
+        "bucketId": 9,
+        "salesMinor": 42235900,
+        "costMinor": 36964800,
+        "quantity": 229429,
+        "unsoldAmountMinor": 15424100,
+        "unsoldQuantity": 56242
+      },
+      {
+        "bucketId": 10,
+        "salesMinor": 38835400,
+        "costMinor": 32467200,
+        "quantity": 190411,
+        "unsoldAmountMinor": 12735100,
+        "unsoldQuantity": 50909
+      },
+      {
+        "bucketId": 11,
+        "salesMinor": 37004900,
+        "costMinor": 29650300,
+        "quantity": 195582,
+        "unsoldAmountMinor": 13613400,
+        "unsoldQuantity": 62926
+      },
+      {
+        "bucketId": 12,
+        "salesMinor": 31645600,
+        "costMinor": 28336800,
+        "quantity": 192350,
+        "unsoldAmountMinor": 13676400,
+        "unsoldQuantity": 55681
+      },
+      {
+        "bucketId": 13,
+        "salesMinor": 36804200,
+        "costMinor": 31610600,
+        "quantity": 196261,
+        "unsoldAmountMinor": 12154600,
+        "unsoldQuantity": 47153
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "businessId": 1,
+    "periodId": 3,
+    "points": [
+      {
+        "bucketId": 14,
+        "salesMinor": 215000000,
+        "costMinor": 183000000,
+        "quantity": 1400000,
+        "unsoldAmountMinor": 78000000,
+        "unsoldQuantity": 650000
+      },
+      {
+        "bucketId": 15,
+        "salesMinor": 218000000,
+        "costMinor": 182000000,
+        "quantity": 1410000,
+        "unsoldAmountMinor": 74000000,
+        "unsoldQuantity": 540000
+      },
+      {
+        "bucketId": 16,
+        "salesMinor": 188000000,
+        "costMinor": 157000000,
+        "quantity": 920000,
+        "unsoldAmountMinor": 60000000,
+        "unsoldQuantity": 230000
+      },
+      {
+        "bucketId": 17,
+        "salesMinor": 164000000,
+        "costMinor": 136000000,
+        "quantity": 810000,
+        "unsoldAmountMinor": 56000000,
+        "unsoldQuantity": 210000
+      },
+      {
+        "bucketId": 18,
+        "salesMinor": 155000000,
+        "costMinor": 128000000,
+        "quantity": 780000,
+        "unsoldAmountMinor": 55000000,
+        "unsoldQuantity": 220000
+      },
+      {
+        "bucketId": 19,
+        "salesMinor": 146000000,
+        "costMinor": 122000000,
+        "quantity": 750000,
+        "unsoldAmountMinor": 53000000,
+        "unsoldQuantity": 215000
+      },
+      {
+        "bucketId": 20,
+        "salesMinor": 147000000,
+        "costMinor": 123000000,
+        "quantity": 760000,
+        "unsoldAmountMinor": 56000000,
+        "unsoldQuantity": 225000
+      },
+      {
+        "bucketId": 21,
+        "salesMinor": 148000000,
+        "costMinor": 125000000,
+        "quantity": 820000,
+        "unsoldAmountMinor": 55000000,
+        "unsoldQuantity": 240000
+      },
+      {
+        "bucketId": 22,
+        "salesMinor": 147000000,
+        "costMinor": 124000000,
+        "quantity": 860000,
+        "unsoldAmountMinor": 55000000,
+        "unsoldQuantity": 245000
+      },
+      {
+        "bucketId": 23,
+        "salesMinor": 139000000,
+        "costMinor": 118000000,
+        "quantity": 770000,
+        "unsoldAmountMinor": 53000000,
+        "unsoldQuantity": 220000
+      },
+      {
+        "bucketId": 24,
+        "salesMinor": 130000000,
+        "costMinor": 111000000,
+        "quantity": 710000,
+        "unsoldAmountMinor": 51000000,
+        "unsoldQuantity": 220000
+      },
+      {
+        "bucketId": 25,
+        "salesMinor": 130000000,
+        "costMinor": 111000000,
+        "quantity": 720000,
+        "unsoldAmountMinor": 51000000,
+        "unsoldQuantity": 210000
+      },
+      {
+        "bucketId": 26,
+        "salesMinor": 140000000,
+        "costMinor": 120000000,
+        "quantity": 780000,
+        "unsoldAmountMinor": 51000000,
+        "unsoldQuantity": 200000
+      }
+    ]
+  }
+]

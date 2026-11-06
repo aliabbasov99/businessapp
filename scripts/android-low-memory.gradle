@@ -1,0 +1,24 @@
+// Applied only by build:apk; generated Android and dependency files stay untouched.
+def jobs = System.getenv('APK_NATIVE_JOBS') ?: '1'
+gradle.beforeProject { project ->
+    ['com.android.application', 'com.android.library'].each { pluginId ->
+        project.pluginManager.withPlugin(pluginId) {
+            def android = project.extensions.getByName('android')
+            android.defaultConfig.externalNativeBuild.cmake.arguments.addAll([
+                "-DCMAKE_JOB_POOLS=apk_compile=${jobs};apk_link=1".toString(),
+                '-DCMAKE_JOB_POOL_COMPILE=apk_compile',
+                '-DCMAKE_JOB_POOL_LINK=apk_link',
+            ])
+        }
+    }
+    project.pluginManager.withPlugin('com.facebook.react') {
+        project.extensions.getByName('react').extraPackagerArgs.addAll([
+            '--max-workers', System.getenv('APK_METRO_WORKERS') ?: '1',
+        ])
+        project.tasks.configureEach { task ->
+            if (task.name == 'createBundleReleaseJsAndAssets') {
+                task.inputs.property('localApiUrl', System.getenv('EXPO_PUBLIC_API_URL') ?: '')
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "branchId": 1,
+    "productId": 1,
+    "quantity": 24
+  },
+  {
+    "id": 2,
+    "branchId": 1,
+    "productId": 2,
+    "quantity": 86
+  },
+  {
+    "id": 3,
+    "branchId": 1,
+    "productId": 3,
+    "quantity": 320
+  },
+  {
+    "id": 4,
+    "branchId": 1,
+    "productId": 4,
+    "quantity": 75
+  },
+  {
+    "id": 5,
+    "branchId": 1,
+    "productId": 5,
+    "quantity": 18
+  },
+  {
+    "id": 6,
+    "branchId": 1,
+    "productId": 6,
+    "quantity": 144
+  },
+  {
+    "id": 7,
+    "branchId": 1,
+    "productId": 7,
+    "quantity": 32
+  },
+  {
+    "id": 8,
+    "branchId": 1,
+    "productId": 8,
+    "quantity": 480
+  }
+]

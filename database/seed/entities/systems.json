@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "businessId": 1,
+    "type": "restaurant_pos"
+  },
+  {
+    "id": 2,
+    "businessId": 2,
+    "type": "retail_inventory"
+  },
+  {
+    "id": 3,
+    "businessId": 3,
+    "type": "accounting"
+  }
+]

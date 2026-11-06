@@ -1,0 +1,179 @@
+[
+  {
+    "id": 1,
+    "businessId": 1,
+    "periodId": 1,
+    "points": [
+      {
+        "bucketId": 1,
+        "balanceMinor": 498549700,
+        "purchasesMinor": 18044900,
+        "paymentsMinor": 14834100
+      },
+      {
+        "bucketId": 2,
+        "balanceMinor": 450791900,
+        "purchasesMinor": 16477700,
+        "paymentsMinor": 4059700
+      },
+      {
+        "bucketId": 3,
+        "balanceMinor": 475145500,
+        "purchasesMinor": 14504200,
+        "paymentsMinor": 11637600
+      },
+      {
+        "bucketId": 4,
+        "balanceMinor": 496727900,
+        "purchasesMinor": 13820500,
+        "paymentsMinor": 3649300
+      },
+      {
+        "bucketId": 5,
+        "balanceMinor": 445824100,
+        "purchasesMinor": 13075100,
+        "paymentsMinor": 14462200
+      },
+      {
+        "bucketId": 6,
+        "balanceMinor": 472259700,
+        "purchasesMinor": 13249500,
+        "paymentsMinor": 2528800
+      },
+      {
+        "bucketId": 7,
+        "balanceMinor": 502101800,
+        "purchasesMinor": 9004300,
+        "paymentsMinor": 2621400
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "businessId": 1,
+    "periodId": 2,
+    "points": [
+      {
+        "bucketId": 8,
+        "balanceMinor": 498549700,
+        "purchasesMinor": 75187100,
+        "paymentsMinor": 61808700
+      },
+      {
+        "bucketId": 9,
+        "balanceMinor": 451107800,
+        "purchasesMinor": 60134000,
+        "paymentsMinor": 19701300
+      },
+      {
+        "bucketId": 10,
+        "balanceMinor": 474478200,
+        "purchasesMinor": 73046300,
+        "paymentsMinor": 51863200
+      },
+      {
+        "bucketId": 11,
+        "balanceMinor": 495151000,
+        "purchasesMinor": 62793200,
+        "paymentsMinor": 76881700
+      },
+      {
+        "bucketId": 12,
+        "balanceMinor": 445192600,
+        "purchasesMinor": 49931800,
+        "paymentsMinor": 9163400
+      },
+      {
+        "bucketId": 13,
+        "balanceMinor": 478817200,
+        "purchasesMinor": 39433100,
+        "paymentsMinor": 12117400
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "businessId": 1,
+    "periodId": 3,
+    "points": [
+      {
+        "bucketId": 14,
+        "balanceMinor": 350000000,
+        "purchasesMinor": 150000000,
+        "paymentsMinor": 130000000
+      },
+      {
+        "bucketId": 15,
+        "balanceMinor": 360000000,
+        "purchasesMinor": 155000000,
+        "paymentsMinor": 30000000
+      },
+      {
+        "bucketId": 16,
+        "balanceMinor": 500000000,
+        "purchasesMinor": 145000000,
+        "paymentsMinor": 34000000
+      },
+      {
+        "bucketId": 17,
+        "balanceMinor": 480000000,
+        "purchasesMinor": 100000000,
+        "paymentsMinor": 48000000
+      },
+      {
+        "bucketId": 18,
+        "balanceMinor": 475000000,
+        "purchasesMinor": 115000000,
+        "paymentsMinor": 92000000
+      },
+      {
+        "bucketId": 19,
+        "balanceMinor": 488000000,
+        "purchasesMinor": 145000000,
+        "paymentsMinor": 100000000
+      },
+      {
+        "bucketId": 20,
+        "balanceMinor": 475000000,
+        "purchasesMinor": 115000000,
+        "paymentsMinor": 32000000
+      },
+      {
+        "bucketId": 21,
+        "balanceMinor": 474000000,
+        "purchasesMinor": 128000000,
+        "paymentsMinor": 172000000
+      },
+      {
+        "bucketId": 22,
+        "balanceMinor": 476000000,
+        "purchasesMinor": 115000000,
+        "paymentsMinor": 121000000
+      },
+      {
+        "bucketId": 23,
+        "balanceMinor": 474000000,
+        "purchasesMinor": 106000000,
+        "paymentsMinor": 16000000
+      },
+      {
+        "bucketId": 24,
+        "balanceMinor": 471000000,
+        "purchasesMinor": 105000000,
+        "paymentsMinor": 20000000
+      },
+      {
+        "bucketId": 25,
+        "balanceMinor": 470000000,
+        "purchasesMinor": 106000000,
+        "paymentsMinor": 19000000
+      },
+      {
+        "bucketId": 26,
+        "balanceMinor": 477853200,
+        "purchasesMinor": 75000000,
+        "paymentsMinor": 23000000
+      }
+    ]
+  }
+]

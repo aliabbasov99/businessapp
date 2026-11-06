@@ -1,0 +1,179 @@
+[
+  {
+    "id": 1,
+    "businessId": 1,
+    "periodId": 1,
+    "points": [
+      {
+        "bucketId": 1,
+        "balanceMinor": -1440000000,
+        "outflowMinor": 20049900,
+        "inflowMinor": 13693000
+      },
+      {
+        "bucketId": 2,
+        "balanceMinor": -1440000000,
+        "outflowMinor": 14394300,
+        "inflowMinor": 9552100
+      },
+      {
+        "bucketId": 3,
+        "balanceMinor": -1440000000,
+        "outflowMinor": 15975600,
+        "inflowMinor": 12649600
+      },
+      {
+        "bucketId": 4,
+        "balanceMinor": -1440000000,
+        "outflowMinor": 12017800,
+        "inflowMinor": 8362900
+      },
+      {
+        "bucketId": 5,
+        "balanceMinor": -1440000000,
+        "outflowMinor": 15917500,
+        "inflowMinor": 13545900
+      },
+      {
+        "bucketId": 6,
+        "balanceMinor": -1440000000,
+        "outflowMinor": 10094900,
+        "inflowMinor": 6743600
+      },
+      {
+        "bucketId": 7,
+        "balanceMinor": -1440000000,
+        "outflowMinor": 5602700,
+        "inflowMinor": 4558900
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "businessId": 1,
+    "periodId": 2,
+    "points": [
+      {
+        "bucketId": 8,
+        "balanceMinor": -1440000000,
+        "outflowMinor": 87718300,
+        "inflowMinor": 59906900
+      },
+      {
+        "bucketId": 9,
+        "balanceMinor": -1440000000,
+        "outflowMinor": 58997600,
+        "inflowMinor": 41790600
+      },
+      {
+        "bucketId": 10,
+        "balanceMinor": -1440000000,
+        "outflowMinor": 72836100,
+        "inflowMinor": 58293400
+      },
+      {
+        "bucketId": 11,
+        "balanceMinor": -1440000000,
+        "outflowMinor": 87630100,
+        "inflowMinor": 69849300
+      },
+      {
+        "bucketId": 12,
+        "balanceMinor": -1440000000,
+        "outflowMinor": 38467400,
+        "inflowMinor": 26494200
+      },
+      {
+        "bucketId": 13,
+        "balanceMinor": -1440000000,
+        "outflowMinor": 25763000,
+        "inflowMinor": 22127400
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "businessId": 1,
+    "periodId": 3,
+    "points": [
+      {
+        "bucketId": 14,
+        "balanceMinor": -1440000000,
+        "outflowMinor": 250000000,
+        "inflowMinor": 180000000
+      },
+      {
+        "bucketId": 15,
+        "balanceMinor": -1440000000,
+        "outflowMinor": 150000000,
+        "inflowMinor": 100000000
+      },
+      {
+        "bucketId": 16,
+        "balanceMinor": -1440000000,
+        "outflowMinor": 190000000,
+        "inflowMinor": 120000000
+      },
+      {
+        "bucketId": 17,
+        "balanceMinor": -1440000000,
+        "outflowMinor": 160000000,
+        "inflowMinor": 120000000
+      },
+      {
+        "bucketId": 18,
+        "balanceMinor": -1440000000,
+        "outflowMinor": 190000000,
+        "inflowMinor": 150000000
+      },
+      {
+        "bucketId": 19,
+        "balanceMinor": -1440000000,
+        "outflowMinor": 200000000,
+        "inflowMinor": 160000000
+      },
+      {
+        "bucketId": 20,
+        "balanceMinor": -1440000000,
+        "outflowMinor": 150000000,
+        "inflowMinor": 110000000
+      },
+      {
+        "bucketId": 21,
+        "balanceMinor": -1440000000,
+        "outflowMinor": 260000000,
+        "inflowMinor": 220000000
+      },
+      {
+        "bucketId": 22,
+        "balanceMinor": -1440000000,
+        "outflowMinor": 210000000,
+        "inflowMinor": 170000000
+      },
+      {
+        "bucketId": 23,
+        "balanceMinor": -1440000000,
+        "outflowMinor": 110000000,
+        "inflowMinor": 70000000
+      },
+      {
+        "bucketId": 24,
+        "balanceMinor": -1440000000,
+        "outflowMinor": 120000000,
+        "inflowMinor": 80000000
+      },
+      {
+        "bucketId": 25,
+        "balanceMinor": -1440000000,
+        "outflowMinor": 115000000,
+        "inflowMinor": 75000000
+      },
+      {
+        "bucketId": 26,
+        "balanceMinor": -1440000000,
+        "outflowMinor": 70000000,
+        "inflowMinor": 60000000
+      }
+    ]
+  }
+]

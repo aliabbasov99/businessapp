@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "branchId": 1,
+    "description": "Kart satışının köçürülməsi",
+    "amountMinor": 124000,
+    "account": "bank",
+    "occurredAt": 1793701680000
+  },
+  {
+    "id": 2,
+    "branchId": 1,
+    "description": "Təchizatçı ödənişi",
+    "amountMinor": -86000,
+    "account": "bank",
+    "occurredAt": 1793701440000
+  },
+  {
+    "id": 3,
+    "branchId": 1,
+    "description": "Nağd satış",
+    "amountMinor": 41500,
+    "account": "cash",
+    "occurredAt": 1793701200000
+  },
+  {
+    "id": 4,
+    "branchId": 1,
+    "description": "İcarə ödənişi",
+    "amountMinor": -95000,
+    "account": "bank",
+    "occurredAt": 1793700960000
+  },
+  {
+    "id": 5,
+    "branchId": 1,
+    "description": "Müştəri köçürməsi",
+    "amountMinor": 58000,
+    "account": "bank",
+    "occurredAt": 1793700720000
+  },
+  {
+    "id": 6,
+    "branchId": 1,
+    "description": "Çatdırılma ödənişi",
+    "amountMinor": -4500,
+    "account": "cash",
+    "occurredAt": 1793700480000
+  },
+  {
+    "id": 7,
+    "branchId": 1,
+    "description": "Sifariş üzrə avans",
+    "amountMinor": 32000,
+    "account": "bank",
+    "occurredAt": 1793700240000
+  },
+  {
+    "id": 8,
+    "branchId": 1,
+    "description": "Təsərrüfat xərci",
+    "amountMinor": -7200,
+    "account": "cash",
+    "occurredAt": 1793700000000
+  }
+]

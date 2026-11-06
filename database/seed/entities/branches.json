@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "businessId": 1,
+    "name": "Sahil restoranı",
+    "type": "restaurant"
+  },
+  {
+    "id": 2,
+    "businessId": 1,
+    "name": "Mərkəz restoranı",
+    "type": "restaurant"
+  },
+  {
+    "id": 3,
+    "businessId": 2,
+    "name": "Mərkəz market",
+    "type": "retail"
+  }
+]

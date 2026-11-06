@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "userId": 104826,
+    "eventId": 1,
+    "createdAt": 1793701920000,
+    "readAt": null
+  },
+  {
+    "id": 2,
+    "userId": 104826,
+    "eventId": 2,
+    "createdAt": 1793614680000,
+    "readAt": null
+  },
+  {
+    "id": 3,
+    "userId": 104826,
+    "eventId": 3,
+    "createdAt": 1793553120000,
+    "readAt": 1793553120000
+  }
+]
