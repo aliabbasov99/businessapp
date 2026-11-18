@@ -12,7 +12,8 @@ async function migrate() {
     await client.query('CREATE TABLE IF NOT EXISTS schema_migrations (name text PRIMARY KEY, checksum text NOT NULL, applied_at timestamptz NOT NULL DEFAULT now())');
     const dir = path.join(root, 'database/migrations');
     for (const name of readdirSync(dir).filter(file => file.endsWith('.sql')).sort()) {
-      const sql = readFileSync(path.join(dir, name), 'utf8');
+      // Hash LF-normalized SQL so Windows (CRLF) and Linux (LF) checkouts match.
+      const sql = readFileSync(path.join(dir, name), 'utf8').replace(/\r\n/g, '\n');
       const checksum = createHash('sha256').update(sql).digest('hex');
       const applied = await client.query('SELECT checksum FROM schema_migrations WHERE name = $1', [name]);
       if (applied.rowCount) {

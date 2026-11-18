@@ -4,6 +4,23 @@ PostgreSQL 17, `dashboard` bazası, `127.0.0.1:5432`.
 Konteyner: `dashboard-postgres`; daimi volume: `dashboard-postgres-data`.
 Konteynerin dayandırılması məlumatları silmir.
 
+## Konteynersiz lokal quraşdırma (PostgreSQL 18)
+
+Podman/Docker olmadıqda sistemdə quraşdırılmış PostgreSQL-dən istifadə olunur
+(`dashboard.sql` sxema **və** məlumatı ehtiva edir):
+
+```bash
+psql -U postgres -h 127.0.0.1 -c "CREATE ROLE dashboard_owner LOGIN PASSWORD '<parol>';"
+psql -U postgres -h 127.0.0.1 -c "CREATE ROLE dashboard_app LOGIN PASSWORD '<parol>';"
+psql -U postgres -h 127.0.0.1 -c "CREATE DATABASE dashboard OWNER dashboard_owner;"
+psql -U postgres -h 127.0.0.1 -d dashboard -f dashboard.sql   # mövcud bazada: DROP DATABASE dashboard; əvvəlcə
+```
+
+Bu yolda `npm run db:start` işləmir (Podman tələb edir) — rollar və `.env.local`
+(`DATABASE_ADMIN_URL`, `DATABASE_URL`) əl ilə yaradılır, şifrələr `.local/postgres-roles.env`-də
+saxlanılır. Baza hazırdır: `npm run db:migrate` → `Migrations ready.`, `npm run db:seed` →
+`Initial seed already imported`.
+
 ## İşə salmaq
 
 Node.js 22+, npm və Podman tələb olunur (`CONTAINER_RUNTIME=docker` alternativdir).

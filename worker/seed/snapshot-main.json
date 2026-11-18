@@ -1,0 +1,2173 @@
+{
+  "metadata": {
+    "schemaVersion": 1,
+    "activeUserId": 104826,
+    "activeBusinessId": 1,
+    "currency": "AZN",
+    "timeZone": "Asia/Baku",
+    "asOf": 1793701920000
+  },
+  "overview": {
+    "id": 1,
+    "businessId": 1,
+    "startsAt": 1793476800000,
+    "asOf": 1793701920000,
+    "sales": {
+      "revenueMinor": 62452900,
+      "costMinor": 55000000,
+      "revenueChangePercent": -8.2,
+      "costChangePercent": 0.1,
+      "profitChangePercent": -43
+    },
+    "inventory": {
+      "quantity": 18420,
+      "costMinor": 118026600,
+      "retailMinor": 145860000,
+      "quantityChangePercent": 3.5,
+      "costChangePercent": 8.6,
+      "retailChangePercent": 4.3
+    },
+    "suppliers": {
+      "debtMinor": 477853200,
+      "purchasesMinor": 145000000,
+      "interestMinor": 2450000,
+      "debtChangePercent": 2.9,
+      "purchasesChangePercent": 3.9,
+      "interestChangePercent": -12.5
+    },
+    "cash": {
+      "inflowMinor": 31284000,
+      "outflowMinor": 2828000,
+      "balanceChangePercent": 6.2,
+      "inflowChangePercent": -10.1,
+      "outflowChangePercent": -64.7
+    }
+  },
+  "users": [
+    {
+      "id": 104826,
+      "name": "Adil Məmmədov",
+      "email": "adil@example.com",
+      "phone": null
+    }
+  ],
+  "businesses": [
+    {
+      "id": 1,
+      "name": "Sahil restoranı",
+      "type": "restaurant"
+    },
+    {
+      "id": 2,
+      "name": "Mərkəz market",
+      "type": "retail"
+    },
+    {
+      "id": 3,
+      "name": "Nümunə şirkət",
+      "type": "accounting"
+    }
+  ],
+  "branches": [
+    {
+      "id": 1,
+      "businessId": 1,
+      "name": "Sahil restoranı",
+      "type": "restaurant"
+    },
+    {
+      "id": 2,
+      "businessId": 1,
+      "name": "Mərkəz restoranı",
+      "type": "restaurant"
+    },
+    {
+      "id": 3,
+      "businessId": 2,
+      "name": "Mərkəz market",
+      "type": "retail"
+    }
+  ],
+  "memberships": [
+    {
+      "id": 1,
+      "userId": 104826,
+      "businessId": 1,
+      "role": "owner"
+    },
+    {
+      "id": 2,
+      "userId": 104826,
+      "businessId": 2,
+      "role": "owner"
+    },
+    {
+      "id": 3,
+      "userId": 104826,
+      "businessId": 3,
+      "role": "manager"
+    }
+  ],
+  "systems": [
+    {
+      "id": 1,
+      "businessId": 1,
+      "type": "restaurant_pos"
+    },
+    {
+      "id": 2,
+      "businessId": 2,
+      "type": "retail_inventory"
+    },
+    {
+      "id": 3,
+      "businessId": 3,
+      "type": "accounting"
+    }
+  ],
+  "sales": [
+    {
+      "id": 10434,
+      "branchId": 1,
+      "receiptNumber": 10434,
+      "occurredAt": 1793687160000,
+      "amountMinor": 18866,
+      "paymentMethod": "card",
+      "type": "sale"
+    },
+    {
+      "id": 10435,
+      "branchId": 1,
+      "receiptNumber": 10435,
+      "occurredAt": 1793687400000,
+      "amountMinor": 16989,
+      "paymentMethod": "card",
+      "type": "sale"
+    },
+    {
+      "id": 10436,
+      "branchId": 1,
+      "receiptNumber": 10436,
+      "occurredAt": 1793687640000,
+      "amountMinor": 9242,
+      "paymentMethod": "cash",
+      "type": "sale"
+    },
+    {
+      "id": 10437,
+      "branchId": 1,
+      "receiptNumber": 10437,
+      "occurredAt": 1793687880000,
+      "amountMinor": 13305,
+      "paymentMethod": "card",
+      "type": "sale"
+    },
+    {
+      "id": 10438,
+      "branchId": 1,
+      "receiptNumber": 10438,
+      "occurredAt": 1793688120000,
+      "amountMinor": 20348,
+      "paymentMethod": "card",
+      "type": "sale"
+    },
+    {
+      "id": 10439,
+      "branchId": 1,
+      "receiptNumber": 10439,
+      "occurredAt": 1793688360000,
+      "amountMinor": 9151,
+      "paymentMethod": "cash",
+      "type": "sale"
+    },
+    {
+      "id": 10440,
+      "branchId": 1,
+      "receiptNumber": 10440,
+      "occurredAt": 1793688600000,
+      "amountMinor": -13484,
+      "paymentMethod": "card",
+      "type": "refund"
+    },
+    {
+      "id": 10441,
+      "branchId": 1,
+      "receiptNumber": 10441,
+      "occurredAt": 1793688840000,
+      "amountMinor": 10197,
+      "paymentMethod": "cash",
+      "type": "sale"
+    },
+    {
+      "id": 10442,
+      "branchId": 1,
+      "receiptNumber": 10442,
+      "occurredAt": 1793689080000,
+      "amountMinor": 16330,
+      "paymentMethod": "card",
+      "type": "sale"
+    },
+    {
+      "id": 10443,
+      "branchId": 1,
+      "receiptNumber": 10443,
+      "occurredAt": 1793689320000,
+      "amountMinor": 14453,
+      "paymentMethod": "card",
+      "type": "sale"
+    },
+    {
+      "id": 10444,
+      "branchId": 1,
+      "receiptNumber": 10444,
+      "occurredAt": 1793689560000,
+      "amountMinor": 6706,
+      "paymentMethod": "cash",
+      "type": "sale"
+    },
+    {
+      "id": 10445,
+      "branchId": 1,
+      "receiptNumber": 10445,
+      "occurredAt": 1793689800000,
+      "amountMinor": 10769,
+      "paymentMethod": "card",
+      "type": "sale"
+    },
+    {
+      "id": 10446,
+      "branchId": 1,
+      "receiptNumber": 10446,
+      "occurredAt": 1793690040000,
+      "amountMinor": 17812,
+      "paymentMethod": "card",
+      "type": "sale"
+    },
+    {
+      "id": 10447,
+      "branchId": 1,
+      "receiptNumber": 10447,
+      "occurredAt": 1793690280000,
+      "amountMinor": 6615,
+      "paymentMethod": "cash",
+      "type": "sale"
+    },
+    {
+      "id": 10448,
+      "branchId": 1,
+      "receiptNumber": 10448,
+      "occurredAt": 1793690520000,
+      "amountMinor": -10948,
+      "paymentMethod": "card",
+      "type": "refund"
+    },
+    {
+      "id": 10449,
+      "branchId": 1,
+      "receiptNumber": 10449,
+      "occurredAt": 1793690760000,
+      "amountMinor": 7661,
+      "paymentMethod": "cash",
+      "type": "sale"
+    },
+    {
+      "id": 10450,
+      "branchId": 1,
+      "receiptNumber": 10450,
+      "occurredAt": 1793691000000,
+      "amountMinor": 13794,
+      "paymentMethod": "card",
+      "type": "sale"
+    },
+    {
+      "id": 10451,
+      "branchId": 1,
+      "receiptNumber": 10451,
+      "occurredAt": 1793691240000,
+      "amountMinor": 11917,
+      "paymentMethod": "card",
+      "type": "sale"
+    },
+    {
+      "id": 10452,
+      "branchId": 1,
+      "receiptNumber": 10452,
+      "occurredAt": 1793691480000,
+      "amountMinor": 4170,
+      "paymentMethod": "cash",
+      "type": "sale"
+    },
+    {
+      "id": 10453,
+      "branchId": 1,
+      "receiptNumber": 10453,
+      "occurredAt": 1793691720000,
+      "amountMinor": 17433,
+      "paymentMethod": "card",
+      "type": "sale"
+    },
+    {
+      "id": 10454,
+      "branchId": 1,
+      "receiptNumber": 10454,
+      "occurredAt": 1793691960000,
+      "amountMinor": 24476,
+      "paymentMethod": "card",
+      "type": "sale"
+    },
+    {
+      "id": 10455,
+      "branchId": 1,
+      "receiptNumber": 10455,
+      "occurredAt": 1793692200000,
+      "amountMinor": 13279,
+      "paymentMethod": "cash",
+      "type": "sale"
+    },
+    {
+      "id": 10456,
+      "branchId": 1,
+      "receiptNumber": 10456,
+      "occurredAt": 1793692440000,
+      "amountMinor": -17612,
+      "paymentMethod": "card",
+      "type": "refund"
+    },
+    {
+      "id": 10457,
+      "branchId": 1,
+      "receiptNumber": 10457,
+      "occurredAt": 1793692680000,
+      "amountMinor": 14325,
+      "paymentMethod": "cash",
+      "type": "sale"
+    },
+    {
+      "id": 10458,
+      "branchId": 1,
+      "receiptNumber": 10458,
+      "occurredAt": 1793692920000,
+      "amountMinor": 20458,
+      "paymentMethod": "card",
+      "type": "sale"
+    },
+    {
+      "id": 10459,
+      "branchId": 1,
+      "receiptNumber": 10459,
+      "occurredAt": 1793693160000,
+      "amountMinor": 18581,
+      "paymentMethod": "card",
+      "type": "sale"
+    },
+    {
+      "id": 10460,
+      "branchId": 1,
+      "receiptNumber": 10460,
+      "occurredAt": 1793693400000,
+      "amountMinor": 10834,
+      "paymentMethod": "cash",
+      "type": "sale"
+    },
+    {
+      "id": 10461,
+      "branchId": 1,
+      "receiptNumber": 10461,
+      "occurredAt": 1793693640000,
+      "amountMinor": 14897,
+      "paymentMethod": "card",
+      "type": "sale"
+    },
+    {
+      "id": 10462,
+      "branchId": 1,
+      "receiptNumber": 10462,
+      "occurredAt": 1793693880000,
+      "amountMinor": 21940,
+      "paymentMethod": "card",
+      "type": "sale"
+    },
+    {
+      "id": 10463,
+      "branchId": 1,
+      "receiptNumber": 10463,
+      "occurredAt": 1793694120000,
+      "amountMinor": 10743,
+      "paymentMethod": "cash",
+      "type": "sale"
+    },
+    {
+      "id": 10464,
+      "branchId": 1,
+      "receiptNumber": 10464,
+      "occurredAt": 1793694360000,
+      "amountMinor": -15076,
+      "paymentMethod": "card",
+      "type": "refund"
+    },
+    {
+      "id": 10465,
+      "branchId": 1,
+      "receiptNumber": 10465,
+      "occurredAt": 1793694600000,
+      "amountMinor": 11789,
+      "paymentMethod": "cash",
+      "type": "sale"
+    },
+    {
+      "id": 10466,
+      "branchId": 1,
+      "receiptNumber": 10466,
+      "occurredAt": 1793694840000,
+      "amountMinor": 17922,
+      "paymentMethod": "card",
+      "type": "sale"
+    },
+    {
+      "id": 10467,
+      "branchId": 1,
+      "receiptNumber": 10467,
+      "occurredAt": 1793695080000,
+      "amountMinor": 16045,
+      "paymentMethod": "card",
+      "type": "sale"
+    },
+    {
+      "id": 10468,
+      "branchId": 1,
+      "receiptNumber": 10468,
+      "occurredAt": 1793695320000,
+      "amountMinor": 8298,
+      "paymentMethod": "cash",
+      "type": "sale"
+    },
+    {
+      "id": 10469,
+      "branchId": 1,
+      "receiptNumber": 10469,
+      "occurredAt": 1793695560000,
+      "amountMinor": 12361,
+      "paymentMethod": "card",
+      "type": "sale"
+    },
+    {
+      "id": 10470,
+      "branchId": 1,
+      "receiptNumber": 10470,
+      "occurredAt": 1793695800000,
+      "amountMinor": 19404,
+      "paymentMethod": "card",
+      "type": "sale"
+    },
+    {
+      "id": 10471,
+      "branchId": 1,
+      "receiptNumber": 10471,
+      "occurredAt": 1793696040000,
+      "amountMinor": 8207,
+      "paymentMethod": "cash",
+      "type": "sale"
+    },
+    {
+      "id": 10472,
+      "branchId": 1,
+      "receiptNumber": 10472,
+      "occurredAt": 1793696280000,
+      "amountMinor": -12540,
+      "paymentMethod": "card",
+      "type": "refund"
+    },
+    {
+      "id": 10473,
+      "branchId": 1,
+      "receiptNumber": 10473,
+      "occurredAt": 1793696520000,
+      "amountMinor": 9253,
+      "paymentMethod": "cash",
+      "type": "sale"
+    },
+    {
+      "id": 10474,
+      "branchId": 1,
+      "receiptNumber": 10474,
+      "occurredAt": 1793696760000,
+      "amountMinor": 15386,
+      "paymentMethod": "card",
+      "type": "sale"
+    },
+    {
+      "id": 10475,
+      "branchId": 1,
+      "receiptNumber": 10475,
+      "occurredAt": 1793697000000,
+      "amountMinor": 2750,
+      "paymentMethod": "cash",
+      "type": "sale"
+    },
+    {
+      "id": 10476,
+      "branchId": 1,
+      "receiptNumber": 10476,
+      "occurredAt": 1793697900000,
+      "amountMinor": 21200,
+      "paymentMethod": "card",
+      "type": "sale"
+    },
+    {
+      "id": 10477,
+      "branchId": 1,
+      "receiptNumber": 10477,
+      "occurredAt": 1793698860000,
+      "amountMinor": 3890,
+      "paymentMethod": "cash",
+      "type": "sale"
+    },
+    {
+      "id": 10478,
+      "branchId": 1,
+      "receiptNumber": 10478,
+      "occurredAt": 1793699760000,
+      "amountMinor": 15600,
+      "paymentMethod": "card",
+      "type": "sale"
+    },
+    {
+      "id": 10479,
+      "branchId": 1,
+      "receiptNumber": 10479,
+      "occurredAt": 1793700480000,
+      "amountMinor": 4720,
+      "paymentMethod": "cash",
+      "type": "sale"
+    },
+    {
+      "id": 10480,
+      "branchId": 1,
+      "receiptNumber": 10480,
+      "occurredAt": 1793701140000,
+      "amountMinor": -9370,
+      "paymentMethod": "card",
+      "type": "refund"
+    },
+    {
+      "id": 10481,
+      "branchId": 1,
+      "receiptNumber": 10481,
+      "occurredAt": 1793701620000,
+      "amountMinor": 6400,
+      "paymentMethod": "cash",
+      "type": "sale"
+    },
+    {
+      "id": 10482,
+      "branchId": 1,
+      "receiptNumber": 10482,
+      "occurredAt": 1793701920000,
+      "amountMinor": 12850,
+      "paymentMethod": "card",
+      "type": "sale"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "businessId": 1,
+      "name": "Arabika qəhvəsi",
+      "code": "4017",
+      "unit": "kg",
+      "costPriceMinor": 2200,
+      "salePriceMinor": 3200
+    },
+    {
+      "id": 2,
+      "businessId": 1,
+      "name": "Süd",
+      "code": "2901400001018",
+      "unit": "liter",
+      "costPriceMinor": 160,
+      "salePriceMinor": 230
+    },
+    {
+      "id": 3,
+      "businessId": 1,
+      "name": "Qablaşdırma qutusu",
+      "code": "2901400001025",
+      "unit": "box",
+      "costPriceMinor": 35,
+      "salePriceMinor": 55
+    },
+    {
+      "id": 4,
+      "businessId": 1,
+      "name": "Un",
+      "code": "4026",
+      "unit": "kg",
+      "costPriceMinor": 120,
+      "salePriceMinor": 180
+    },
+    {
+      "id": 5,
+      "businessId": 1,
+      "name": "Zeytun yağı",
+      "code": "2901400001032",
+      "unit": "liter",
+      "costPriceMinor": 1300,
+      "salePriceMinor": 1900
+    },
+    {
+      "id": 6,
+      "businessId": 1,
+      "name": "Mineral su",
+      "code": "2901400001049",
+      "unit": "piece",
+      "costPriceMinor": 45,
+      "salePriceMinor": 80
+    },
+    {
+      "id": 7,
+      "businessId": 1,
+      "name": "Tomat sousu",
+      "code": "2901400001056",
+      "unit": "piece",
+      "costPriceMinor": 240,
+      "salePriceMinor": 360
+    },
+    {
+      "id": 8,
+      "businessId": 1,
+      "name": "Kağız stəkan",
+      "code": "2901400001063",
+      "unit": "piece",
+      "costPriceMinor": 12,
+      "salePriceMinor": 20
+    }
+  ],
+  "stock": [
+    {
+      "id": 1,
+      "branchId": 1,
+      "productId": 1,
+      "quantity": 24
+    },
+    {
+      "id": 2,
+      "branchId": 1,
+      "productId": 2,
+      "quantity": 86
+    },
+    {
+      "id": 3,
+      "branchId": 1,
+      "productId": 3,
+      "quantity": 320
+    },
+    {
+      "id": 4,
+      "branchId": 1,
+      "productId": 4,
+      "quantity": 75
+    },
+    {
+      "id": 5,
+      "branchId": 1,
+      "productId": 5,
+      "quantity": 18
+    },
+    {
+      "id": 6,
+      "branchId": 1,
+      "productId": 6,
+      "quantity": 144
+    },
+    {
+      "id": 7,
+      "branchId": 1,
+      "productId": 7,
+      "quantity": 32
+    },
+    {
+      "id": 8,
+      "branchId": 1,
+      "productId": 8,
+      "quantity": 480
+    }
+  ],
+  "suppliers": [
+    {
+      "id": 1,
+      "businessId": 1,
+      "name": "Bağ Səbəti MMC",
+      "taxId": "1307752521",
+      "phone": "+994552553435",
+      "balanceMinor": -284000,
+      "depositMinor": 50000
+    },
+    {
+      "id": 2,
+      "businessId": 1,
+      "name": "Dənli Ticarət MMC",
+      "taxId": "2104869371",
+      "phone": "+994101113435",
+      "balanceMinor": -136000,
+      "depositMinor": 25000
+    },
+    {
+      "id": 3,
+      "businessId": 1,
+      "name": "Sərin Su MMC",
+      "taxId": "1605928341",
+      "phone": "+994503184627",
+      "balanceMinor": 62000,
+      "depositMinor": 10000
+    },
+    {
+      "id": 4,
+      "businessId": 1,
+      "name": "Qutu Təchizat MMC",
+      "taxId": "1508314761",
+      "phone": "+994704267318",
+      "balanceMinor": 18000,
+      "depositMinor": 0
+    },
+    {
+      "id": 5,
+      "businessId": 1,
+      "name": "Yaylaq Süd MMC",
+      "taxId": "2206831471",
+      "phone": "+994512648732",
+      "balanceMinor": -192000,
+      "depositMinor": 30000
+    },
+    {
+      "id": 6,
+      "businessId": 1,
+      "name": "Nar Bağı MMC",
+      "taxId": "1804739261",
+      "phone": "+994556482173",
+      "balanceMinor": 34000,
+      "depositMinor": 15000
+    },
+    {
+      "id": 7,
+      "businessId": 1,
+      "name": "Ləzzət Ərzaq MMC",
+      "taxId": "1708263541",
+      "phone": "+994103946218",
+      "balanceMinor": -356000,
+      "depositMinor": 40000
+    },
+    {
+      "id": 8,
+      "businessId": 1,
+      "name": "Süfrə Ticarət MMC",
+      "taxId": "1405972861",
+      "phone": "+994775124936",
+      "balanceMinor": 29000,
+      "depositMinor": 20000
+    }
+  ],
+  "cashTransactions": [
+    {
+      "id": 1,
+      "branchId": 1,
+      "description": "Kart satışının köçürülməsi",
+      "amountMinor": 124000,
+      "account": "bank",
+      "occurredAt": 1793701680000
+    },
+    {
+      "id": 2,
+      "branchId": 1,
+      "description": "Təchizatçı ödənişi",
+      "amountMinor": -86000,
+      "account": "bank",
+      "occurredAt": 1793701440000
+    },
+    {
+      "id": 3,
+      "branchId": 1,
+      "description": "Nağd satış",
+      "amountMinor": 41500,
+      "account": "cash",
+      "occurredAt": 1793701200000
+    },
+    {
+      "id": 4,
+      "branchId": 1,
+      "description": "İcarə ödənişi",
+      "amountMinor": -95000,
+      "account": "bank",
+      "occurredAt": 1793700960000
+    },
+    {
+      "id": 5,
+      "branchId": 1,
+      "description": "Müştəri köçürməsi",
+      "amountMinor": 58000,
+      "account": "bank",
+      "occurredAt": 1793700720000
+    },
+    {
+      "id": 6,
+      "branchId": 1,
+      "description": "Çatdırılma ödənişi",
+      "amountMinor": -4500,
+      "account": "cash",
+      "occurredAt": 1793700480000
+    },
+    {
+      "id": 7,
+      "branchId": 1,
+      "description": "Sifariş üzrə avans",
+      "amountMinor": 32000,
+      "account": "bank",
+      "occurredAt": 1793700240000
+    },
+    {
+      "id": 8,
+      "branchId": 1,
+      "description": "Təsərrüfat xərci",
+      "amountMinor": -7200,
+      "account": "cash",
+      "occurredAt": 1793700000000
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "branchId": 1,
+      "type": "receipt_cancelled",
+      "occurredAt": 1793701920000,
+      "receiptNumber": 1048,
+      "amountMinor": 4800,
+      "reason": "sifariş dəyişdirilib"
+    },
+    {
+      "id": 2,
+      "branchId": 2,
+      "type": "discount_applied",
+      "occurredAt": 1793614680000,
+      "receiptNumber": 1041,
+      "discountPercent": 20
+    },
+    {
+      "id": 3,
+      "businessId": 1,
+      "type": "daily_report_ready",
+      "occurredAt": 1793553120000
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "userId": 104826,
+      "eventId": 1,
+      "createdAt": 1793701920000,
+      "readAt": null
+    },
+    {
+      "id": 2,
+      "userId": 104826,
+      "eventId": 2,
+      "createdAt": 1793614680000,
+      "readAt": null
+    },
+    {
+      "id": 3,
+      "userId": 104826,
+      "eventId": 3,
+      "createdAt": 1793553120000,
+      "readAt": 1793553120000
+    }
+  ],
+  "periods": [
+    {
+      "id": 1,
+      "code": "week",
+      "buckets": [
+        {
+          "id": 1,
+          "startsAt": 1793563200000,
+          "endsAt": 1793649600000
+        },
+        {
+          "id": 2,
+          "startsAt": 1793649600000,
+          "endsAt": 1793736000000
+        },
+        {
+          "id": 3,
+          "startsAt": 1793736000000,
+          "endsAt": 1793822400000
+        },
+        {
+          "id": 4,
+          "startsAt": 1793822400000,
+          "endsAt": 1793908800000
+        },
+        {
+          "id": 5,
+          "startsAt": 1793908800000,
+          "endsAt": 1793995200000
+        },
+        {
+          "id": 6,
+          "startsAt": 1793995200000,
+          "endsAt": 1794081600000
+        },
+        {
+          "id": 7,
+          "startsAt": 1794081600000,
+          "endsAt": 1794168000000
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "code": "month",
+      "buckets": [
+        {
+          "id": 8,
+          "startsAt": 1793476800000,
+          "endsAt": 1793908800000
+        },
+        {
+          "id": 9,
+          "startsAt": 1793908800000,
+          "endsAt": 1794340800000
+        },
+        {
+          "id": 10,
+          "startsAt": 1794340800000,
+          "endsAt": 1794772800000
+        },
+        {
+          "id": 11,
+          "startsAt": 1794772800000,
+          "endsAt": 1795204800000
+        },
+        {
+          "id": 12,
+          "startsAt": 1795204800000,
+          "endsAt": 1795636800000
+        },
+        {
+          "id": 13,
+          "startsAt": 1795636800000,
+          "endsAt": 1796068800000
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "code": "year",
+      "buckets": [
+        {
+          "id": 14,
+          "startsAt": 1761940800000,
+          "endsAt": 1764532800000
+        },
+        {
+          "id": 15,
+          "startsAt": 1764532800000,
+          "endsAt": 1767211200000
+        },
+        {
+          "id": 16,
+          "startsAt": 1767211200000,
+          "endsAt": 1769889600000
+        },
+        {
+          "id": 17,
+          "startsAt": 1769889600000,
+          "endsAt": 1772308800000
+        },
+        {
+          "id": 18,
+          "startsAt": 1772308800000,
+          "endsAt": 1774987200000
+        },
+        {
+          "id": 19,
+          "startsAt": 1774987200000,
+          "endsAt": 1777579200000
+        },
+        {
+          "id": 20,
+          "startsAt": 1777579200000,
+          "endsAt": 1780257600000
+        },
+        {
+          "id": 21,
+          "startsAt": 1780257600000,
+          "endsAt": 1782849600000
+        },
+        {
+          "id": 22,
+          "startsAt": 1782849600000,
+          "endsAt": 1785528000000
+        },
+        {
+          "id": 23,
+          "startsAt": 1785528000000,
+          "endsAt": 1788206400000
+        },
+        {
+          "id": 24,
+          "startsAt": 1788206400000,
+          "endsAt": 1790798400000
+        },
+        {
+          "id": 25,
+          "startsAt": 1790798400000,
+          "endsAt": 1793476800000
+        },
+        {
+          "id": 26,
+          "startsAt": 1793476800000,
+          "endsAt": 1796068800000
+        }
+      ]
+    }
+  ],
+  "salesHistory": [
+    {
+      "id": 1,
+      "businessId": 1,
+      "periodId": 1,
+      "branchId": null,
+      "changePercent": 12.4,
+      "points": [
+        {
+          "bucketId": 1,
+          "customerCount": 40,
+          "revenueMinor": 125254,
+          "costMinor": 105214
+        },
+        {
+          "bucketId": 2,
+          "customerCount": 55,
+          "revenueMinor": 155316,
+          "costMinor": 135275
+        },
+        {
+          "bucketId": 3,
+          "customerCount": 30,
+          "revenueMinor": 110223,
+          "costMinor": 97197
+        },
+        {
+          "bucketId": 4,
+          "customerCount": 85,
+          "revenueMinor": 220448,
+          "costMinor": 187380
+        },
+        {
+          "bucketId": 5,
+          "customerCount": 65,
+          "revenueMinor": 178362,
+          "costMinor": 155315
+        },
+        {
+          "bucketId": 6,
+          "customerCount": 95,
+          "revenueMinor": 260529,
+          "costMinor": 230468
+        },
+        {
+          "bucketId": 7,
+          "customerCount": 80,
+          "revenueMinor": 230468,
+          "costMinor": 195397
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "businessId": 1,
+      "periodId": 2,
+      "branchId": null,
+      "changePercent": 8.2,
+      "points": [
+        {
+          "bucketId": 8,
+          "customerCount": 150,
+          "revenueMinor": 579786,
+          "costMinor": 479823
+        },
+        {
+          "bucketId": 9,
+          "customerCount": 170,
+          "revenueMinor": 659757,
+          "costMinor": 569790
+        },
+        {
+          "bucketId": 10,
+          "customerCount": 120,
+          "revenueMinor": 499816,
+          "costMinor": 439838
+        },
+        {
+          "bucketId": 11,
+          "customerCount": 350,
+          "revenueMinor": 929658,
+          "costMinor": 779713
+        },
+        {
+          "bucketId": 12,
+          "customerCount": 450,
+          "revenueMinor": 1309517,
+          "costMinor": 1129584
+        },
+        {
+          "bucketId": 13,
+          "customerCount": 500,
+          "revenueMinor": 1449466,
+          "costMinor": 1269532
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "businessId": 1,
+      "periodId": 3,
+      "branchId": null,
+      "changePercent": 16.7,
+      "points": [
+        {
+          "bucketId": 14,
+          "customerCount": 210000,
+          "revenueMinor": 160000000,
+          "costMinor": 142000000
+        },
+        {
+          "bucketId": 15,
+          "customerCount": 200000,
+          "revenueMinor": 150000000,
+          "costMinor": 132000000
+        },
+        {
+          "bucketId": 16,
+          "customerCount": 208000,
+          "revenueMinor": 160000000,
+          "costMinor": 142000000
+        },
+        {
+          "bucketId": 17,
+          "customerCount": 185000,
+          "revenueMinor": 130000000,
+          "costMinor": 115000000
+        },
+        {
+          "bucketId": 18,
+          "customerCount": 172000,
+          "revenueMinor": 125000000,
+          "costMinor": 110000000
+        },
+        {
+          "bucketId": 19,
+          "customerCount": 180000,
+          "revenueMinor": 140000000,
+          "costMinor": 122000000
+        },
+        {
+          "bucketId": 20,
+          "customerCount": 175000,
+          "revenueMinor": 125000000,
+          "costMinor": 110000000
+        },
+        {
+          "bucketId": 21,
+          "customerCount": 188000,
+          "revenueMinor": 134000000,
+          "costMinor": 117000000
+        },
+        {
+          "bucketId": 22,
+          "customerCount": 178000,
+          "revenueMinor": 120000000,
+          "costMinor": 107000000
+        },
+        {
+          "bucketId": 23,
+          "customerCount": 183000,
+          "revenueMinor": 118000000,
+          "costMinor": 104000000
+        },
+        {
+          "bucketId": 24,
+          "customerCount": 182000,
+          "revenueMinor": 118000000,
+          "costMinor": 104000000
+        },
+        {
+          "bucketId": 25,
+          "customerCount": 170000,
+          "revenueMinor": 114000000,
+          "costMinor": 100000000
+        },
+        {
+          "bucketId": 26,
+          "customerCount": 96000,
+          "revenueMinor": 62452900,
+          "costMinor": 55000000
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "businessId": 1,
+      "periodId": 1,
+      "branchId": 1,
+      "changePercent": 12.4,
+      "points": [
+        {
+          "bucketId": 1,
+          "customerCount": 23,
+          "revenueMinor": 70814,
+          "costMinor": 59484
+        },
+        {
+          "bucketId": 2,
+          "customerCount": 31,
+          "revenueMinor": 87809,
+          "costMinor": 76479
+        },
+        {
+          "bucketId": 3,
+          "customerCount": 17,
+          "revenueMinor": 62316,
+          "costMinor": 54951
+        },
+        {
+          "bucketId": 4,
+          "customerCount": 48,
+          "revenueMinor": 124632,
+          "costMinor": 105937
+        },
+        {
+          "bucketId": 5,
+          "customerCount": 37,
+          "revenueMinor": 100839,
+          "costMinor": 87809
+        },
+        {
+          "bucketId": 6,
+          "customerCount": 54,
+          "revenueMinor": 147293,
+          "costMinor": 130297
+        },
+        {
+          "bucketId": 7,
+          "customerCount": 45,
+          "revenueMinor": 130297,
+          "costMinor": 110470
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "businessId": 1,
+      "periodId": 2,
+      "branchId": 1,
+      "changePercent": 8.2,
+      "points": [
+        {
+          "bucketId": 8,
+          "customerCount": 87,
+          "revenueMinor": 337532,
+          "costMinor": 279337
+        },
+        {
+          "bucketId": 9,
+          "customerCount": 99,
+          "revenueMinor": 384088,
+          "costMinor": 331713
+        },
+        {
+          "bucketId": 10,
+          "customerCount": 70,
+          "revenueMinor": 290976,
+          "costMinor": 256059
+        },
+        {
+          "bucketId": 11,
+          "customerCount": 204,
+          "revenueMinor": 541216,
+          "costMinor": 453923
+        },
+        {
+          "bucketId": 12,
+          "customerCount": 262,
+          "revenueMinor": 762357,
+          "costMinor": 657606
+        },
+        {
+          "bucketId": 13,
+          "customerCount": 291,
+          "revenueMinor": 843831,
+          "costMinor": 739079
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "businessId": 1,
+      "periodId": 3,
+      "branchId": 1,
+      "changePercent": 16.7,
+      "points": [
+        {
+          "bucketId": 14,
+          "customerCount": 121232,
+          "revenueMinor": 92366935,
+          "costMinor": 81975654
+        },
+        {
+          "bucketId": 15,
+          "customerCount": 115459,
+          "revenueMinor": 86594001,
+          "costMinor": 76202721
+        },
+        {
+          "bucketId": 16,
+          "customerCount": 120077,
+          "revenueMinor": 92366935,
+          "costMinor": 81975654
+        },
+        {
+          "bucketId": 17,
+          "customerCount": 106799,
+          "revenueMinor": 75048134,
+          "costMinor": 66388734
+        },
+        {
+          "bucketId": 18,
+          "customerCount": 99294,
+          "revenueMinor": 72161668,
+          "costMinor": 63502267
+        },
+        {
+          "bucketId": 19,
+          "customerCount": 103913,
+          "revenueMinor": 80821068,
+          "costMinor": 70429788
+        },
+        {
+          "bucketId": 20,
+          "customerCount": 101026,
+          "revenueMinor": 72161668,
+          "costMinor": 63502267
+        },
+        {
+          "bucketId": 21,
+          "customerCount": 108531,
+          "revenueMinor": 77357308,
+          "costMinor": 67543321
+        },
+        {
+          "bucketId": 22,
+          "customerCount": 102758,
+          "revenueMinor": 69275201,
+          "costMinor": 61770387
+        },
+        {
+          "bucketId": 23,
+          "customerCount": 105645,
+          "revenueMinor": 68120614,
+          "costMinor": 60038507
+        },
+        {
+          "bucketId": 24,
+          "customerCount": 105067,
+          "revenueMinor": 68120614,
+          "costMinor": 60038507
+        },
+        {
+          "bucketId": 25,
+          "customerCount": 98140,
+          "revenueMinor": 65811441,
+          "costMinor": 57729334
+        },
+        {
+          "bucketId": 26,
+          "customerCount": 55420,
+          "revenueMinor": 36053643,
+          "costMinor": 31751134
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "businessId": 1,
+      "periodId": 1,
+      "branchId": 2,
+      "changePercent": 12.4,
+      "points": [
+        {
+          "bucketId": 1,
+          "customerCount": 17,
+          "revenueMinor": 54440,
+          "costMinor": 45730
+        },
+        {
+          "bucketId": 2,
+          "customerCount": 24,
+          "revenueMinor": 67507,
+          "costMinor": 58796
+        },
+        {
+          "bucketId": 3,
+          "customerCount": 13,
+          "revenueMinor": 47907,
+          "costMinor": 42246
+        },
+        {
+          "bucketId": 4,
+          "customerCount": 37,
+          "revenueMinor": 95816,
+          "costMinor": 81443
+        },
+        {
+          "bucketId": 5,
+          "customerCount": 28,
+          "revenueMinor": 77523,
+          "costMinor": 67506
+        },
+        {
+          "bucketId": 6,
+          "customerCount": 41,
+          "revenueMinor": 113236,
+          "costMinor": 100171
+        },
+        {
+          "bucketId": 7,
+          "customerCount": 35,
+          "revenueMinor": 100171,
+          "costMinor": 84927
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "businessId": 1,
+      "periodId": 2,
+      "branchId": 2,
+      "changePercent": 8.2,
+      "points": [
+        {
+          "bucketId": 8,
+          "customerCount": 63,
+          "revenueMinor": 242254,
+          "costMinor": 200486
+        },
+        {
+          "bucketId": 9,
+          "customerCount": 71,
+          "revenueMinor": 275669,
+          "costMinor": 238077
+        },
+        {
+          "bucketId": 10,
+          "customerCount": 50,
+          "revenueMinor": 208840,
+          "costMinor": 183779
+        },
+        {
+          "bucketId": 11,
+          "customerCount": 146,
+          "revenueMinor": 388442,
+          "costMinor": 325790
+        },
+        {
+          "bucketId": 12,
+          "customerCount": 188,
+          "revenueMinor": 547160,
+          "costMinor": 471978
+        },
+        {
+          "bucketId": 13,
+          "customerCount": 209,
+          "revenueMinor": 605635,
+          "costMinor": 530453
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "businessId": 1,
+      "periodId": 3,
+      "branchId": 2,
+      "changePercent": 16.7,
+      "points": [
+        {
+          "bucketId": 14,
+          "customerCount": 88768,
+          "revenueMinor": 67633065,
+          "costMinor": 60024346
+        },
+        {
+          "bucketId": 15,
+          "customerCount": 84541,
+          "revenueMinor": 63405999,
+          "costMinor": 55797279
+        },
+        {
+          "bucketId": 16,
+          "customerCount": 87923,
+          "revenueMinor": 67633065,
+          "costMinor": 60024346
+        },
+        {
+          "bucketId": 17,
+          "customerCount": 78201,
+          "revenueMinor": 54951866,
+          "costMinor": 48611266
+        },
+        {
+          "bucketId": 18,
+          "customerCount": 72706,
+          "revenueMinor": 52838332,
+          "costMinor": 46497733
+        },
+        {
+          "bucketId": 19,
+          "customerCount": 76087,
+          "revenueMinor": 59178932,
+          "costMinor": 51570212
+        },
+        {
+          "bucketId": 20,
+          "customerCount": 73974,
+          "revenueMinor": 52838332,
+          "costMinor": 46497733
+        },
+        {
+          "bucketId": 21,
+          "customerCount": 79469,
+          "revenueMinor": 56642692,
+          "costMinor": 49456679
+        },
+        {
+          "bucketId": 22,
+          "customerCount": 75242,
+          "revenueMinor": 50724799,
+          "costMinor": 45229613
+        },
+        {
+          "bucketId": 23,
+          "customerCount": 77355,
+          "revenueMinor": 49879386,
+          "costMinor": 43961493
+        },
+        {
+          "bucketId": 24,
+          "customerCount": 76933,
+          "revenueMinor": 49879386,
+          "costMinor": 43961493
+        },
+        {
+          "bucketId": 25,
+          "customerCount": 71860,
+          "revenueMinor": 48188559,
+          "costMinor": 42270666
+        },
+        {
+          "bucketId": 26,
+          "customerCount": 40580,
+          "revenueMinor": 26399257,
+          "costMinor": 23248866
+        }
+      ]
+    }
+  ],
+  "inventoryHistory": [
+    {
+      "id": 1,
+      "businessId": 1,
+      "periodId": 1,
+      "points": [
+        {
+          "bucketId": 1,
+          "salesMinor": 12932200,
+          "costMinor": 10440900,
+          "quantity": 79334,
+          "unsoldAmountMinor": 4628800,
+          "unsoldQuantity": 40706
+        },
+        {
+          "bucketId": 2,
+          "salesMinor": 10682100,
+          "costMinor": 9373000,
+          "quantity": 57829,
+          "unsoldAmountMinor": 3803200,
+          "unsoldQuantity": 13985
+        },
+        {
+          "bucketId": 3,
+          "salesMinor": 9774500,
+          "costMinor": 8095700,
+          "quantity": 47149,
+          "unsoldAmountMinor": 3148000,
+          "unsoldQuantity": 12444
+        },
+        {
+          "bucketId": 4,
+          "salesMinor": 8833100,
+          "costMinor": 7013400,
+          "quantity": 43085,
+          "unsoldAmountMinor": 3326600,
+          "unsoldQuantity": 14100
+        },
+        {
+          "bucketId": 5,
+          "salesMinor": 8356700,
+          "costMinor": 7410400,
+          "quantity": 54089,
+          "unsoldAmountMinor": 3485100,
+          "unsoldQuantity": 14882
+        },
+        {
+          "bucketId": 6,
+          "salesMinor": 8202100,
+          "costMinor": 7017600,
+          "quantity": 42875,
+          "unsoldAmountMinor": 2917100,
+          "unsoldQuantity": 12449
+        },
+        {
+          "bucketId": 7,
+          "salesMinor": 8404000,
+          "costMinor": 6838400,
+          "quantity": 44237,
+          "unsoldAmountMinor": 3032600,
+          "unsoldQuantity": 12541
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "businessId": 1,
+      "periodId": 2,
+      "points": [
+        {
+          "bucketId": 8,
+          "salesMinor": 53884100,
+          "costMinor": 43503800,
+          "quantity": 330558,
+          "unsoldAmountMinor": 19286900,
+          "unsoldQuantity": 169607
+        },
+        {
+          "bucketId": 9,
+          "salesMinor": 42235900,
+          "costMinor": 36964800,
+          "quantity": 229429,
+          "unsoldAmountMinor": 15424100,
+          "unsoldQuantity": 56242
+        },
+        {
+          "bucketId": 10,
+          "salesMinor": 38835400,
+          "costMinor": 32467200,
+          "quantity": 190411,
+          "unsoldAmountMinor": 12735100,
+          "unsoldQuantity": 50909
+        },
+        {
+          "bucketId": 11,
+          "salesMinor": 37004900,
+          "costMinor": 29650300,
+          "quantity": 195582,
+          "unsoldAmountMinor": 13613400,
+          "unsoldQuantity": 62926
+        },
+        {
+          "bucketId": 12,
+          "salesMinor": 31645600,
+          "costMinor": 28336800,
+          "quantity": 192350,
+          "unsoldAmountMinor": 13676400,
+          "unsoldQuantity": 55681
+        },
+        {
+          "bucketId": 13,
+          "salesMinor": 36804200,
+          "costMinor": 31610600,
+          "quantity": 196261,
+          "unsoldAmountMinor": 12154600,
+          "unsoldQuantity": 47153
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "businessId": 1,
+      "periodId": 3,
+      "points": [
+        {
+          "bucketId": 14,
+          "salesMinor": 215000000,
+          "costMinor": 183000000,
+          "quantity": 1400000,
+          "unsoldAmountMinor": 78000000,
+          "unsoldQuantity": 650000
+        },
+        {
+          "bucketId": 15,
+          "salesMinor": 218000000,
+          "costMinor": 182000000,
+          "quantity": 1410000,
+          "unsoldAmountMinor": 74000000,
+          "unsoldQuantity": 540000
+        },
+        {
+          "bucketId": 16,
+          "salesMinor": 188000000,
+          "costMinor": 157000000,
+          "quantity": 920000,
+          "unsoldAmountMinor": 60000000,
+          "unsoldQuantity": 230000
+        },
+        {
+          "bucketId": 17,
+          "salesMinor": 164000000,
+          "costMinor": 136000000,
+          "quantity": 810000,
+          "unsoldAmountMinor": 56000000,
+          "unsoldQuantity": 210000
+        },
+        {
+          "bucketId": 18,
+          "salesMinor": 155000000,
+          "costMinor": 128000000,
+          "quantity": 780000,
+          "unsoldAmountMinor": 55000000,
+          "unsoldQuantity": 220000
+        },
+        {
+          "bucketId": 19,
+          "salesMinor": 146000000,
+          "costMinor": 122000000,
+          "quantity": 750000,
+          "unsoldAmountMinor": 53000000,
+          "unsoldQuantity": 215000
+        },
+        {
+          "bucketId": 20,
+          "salesMinor": 147000000,
+          "costMinor": 123000000,
+          "quantity": 760000,
+          "unsoldAmountMinor": 56000000,
+          "unsoldQuantity": 225000
+        },
+        {
+          "bucketId": 21,
+          "salesMinor": 148000000,
+          "costMinor": 125000000,
+          "quantity": 820000,
+          "unsoldAmountMinor": 55000000,
+          "unsoldQuantity": 240000
+        },
+        {
+          "bucketId": 22,
+          "salesMinor": 147000000,
+          "costMinor": 124000000,
+          "quantity": 860000,
+          "unsoldAmountMinor": 55000000,
+          "unsoldQuantity": 245000
+        },
+        {
+          "bucketId": 23,
+          "salesMinor": 139000000,
+          "costMinor": 118000000,
+          "quantity": 770000,
+          "unsoldAmountMinor": 53000000,
+          "unsoldQuantity": 220000
+        },
+        {
+          "bucketId": 24,
+          "salesMinor": 130000000,
+          "costMinor": 111000000,
+          "quantity": 710000,
+          "unsoldAmountMinor": 51000000,
+          "unsoldQuantity": 220000
+        },
+        {
+          "bucketId": 25,
+          "salesMinor": 130000000,
+          "costMinor": 111000000,
+          "quantity": 720000,
+          "unsoldAmountMinor": 51000000,
+          "unsoldQuantity": 210000
+        },
+        {
+          "bucketId": 26,
+          "salesMinor": 140000000,
+          "costMinor": 120000000,
+          "quantity": 780000,
+          "unsoldAmountMinor": 51000000,
+          "unsoldQuantity": 200000
+        }
+      ]
+    }
+  ],
+  "cashHistory": [
+    {
+      "id": 1,
+      "businessId": 1,
+      "periodId": 1,
+      "points": [
+        {
+          "bucketId": 1,
+          "balanceMinor": -1440000000,
+          "outflowMinor": 20049900,
+          "inflowMinor": 13693000
+        },
+        {
+          "bucketId": 2,
+          "balanceMinor": -1440000000,
+          "outflowMinor": 14394300,
+          "inflowMinor": 9552100
+        },
+        {
+          "bucketId": 3,
+          "balanceMinor": -1440000000,
+          "outflowMinor": 15975600,
+          "inflowMinor": 12649600
+        },
+        {
+          "bucketId": 4,
+          "balanceMinor": -1440000000,
+          "outflowMinor": 12017800,
+          "inflowMinor": 8362900
+        },
+        {
+          "bucketId": 5,
+          "balanceMinor": -1440000000,
+          "outflowMinor": 15917500,
+          "inflowMinor": 13545900
+        },
+        {
+          "bucketId": 6,
+          "balanceMinor": -1440000000,
+          "outflowMinor": 10094900,
+          "inflowMinor": 6743600
+        },
+        {
+          "bucketId": 7,
+          "balanceMinor": -1440000000,
+          "outflowMinor": 5602700,
+          "inflowMinor": 4558900
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "businessId": 1,
+      "periodId": 2,
+      "points": [
+        {
+          "bucketId": 8,
+          "balanceMinor": -1440000000,
+          "outflowMinor": 87718300,
+          "inflowMinor": 59906900
+        },
+        {
+          "bucketId": 9,
+          "balanceMinor": -1440000000,
+          "outflowMinor": 58997600,
+          "inflowMinor": 41790600
+        },
+        {
+          "bucketId": 10,
+          "balanceMinor": -1440000000,
+          "outflowMinor": 72836100,
+          "inflowMinor": 58293400
+        },
+        {
+          "bucketId": 11,
+          "balanceMinor": -1440000000,
+          "outflowMinor": 87630100,
+          "inflowMinor": 69849300
+        },
+        {
+          "bucketId": 12,
+          "balanceMinor": -1440000000,
+          "outflowMinor": 38467400,
+          "inflowMinor": 26494200
+        },
+        {
+          "bucketId": 13,
+          "balanceMinor": -1440000000,
+          "outflowMinor": 25763000,
+          "inflowMinor": 22127400
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "businessId": 1,
+      "periodId": 3,
+      "points": [
+        {
+          "bucketId": 14,
+          "balanceMinor": -1440000000,
+          "outflowMinor": 250000000,
+          "inflowMinor": 180000000
+        },
+        {
+          "bucketId": 15,
+          "balanceMinor": -1440000000,
+          "outflowMinor": 150000000,
+          "inflowMinor": 100000000
+        },
+        {
+          "bucketId": 16,
+          "balanceMinor": -1440000000,
+          "outflowMinor": 190000000,
+          "inflowMinor": 120000000
+        },
+        {
+          "bucketId": 17,
+          "balanceMinor": -1440000000,
+          "outflowMinor": 160000000,
+          "inflowMinor": 120000000
+        },
+        {
+          "bucketId": 18,
+          "balanceMinor": -1440000000,
+          "outflowMinor": 190000000,
+          "inflowMinor": 150000000
+        },
+        {
+          "bucketId": 19,
+          "balanceMinor": -1440000000,
+          "outflowMinor": 200000000,
+          "inflowMinor": 160000000
+        },
+        {
+          "bucketId": 20,
+          "balanceMinor": -1440000000,
+          "outflowMinor": 150000000,
+          "inflowMinor": 110000000
+        },
+        {
+          "bucketId": 21,
+          "balanceMinor": -1440000000,
+          "outflowMinor": 260000000,
+          "inflowMinor": 220000000
+        },
+        {
+          "bucketId": 22,
+          "balanceMinor": -1440000000,
+          "outflowMinor": 210000000,
+          "inflowMinor": 170000000
+        },
+        {
+          "bucketId": 23,
+          "balanceMinor": -1440000000,
+          "outflowMinor": 110000000,
+          "inflowMinor": 70000000
+        },
+        {
+          "bucketId": 24,
+          "balanceMinor": -1440000000,
+          "outflowMinor": 120000000,
+          "inflowMinor": 80000000
+        },
+        {
+          "bucketId": 25,
+          "balanceMinor": -1440000000,
+          "outflowMinor": 115000000,
+          "inflowMinor": 75000000
+        },
+        {
+          "bucketId": 26,
+          "balanceMinor": -1440000000,
+          "outflowMinor": 70000000,
+          "inflowMinor": 60000000
+        }
+      ]
+    }
+  ],
+  "companyHistory": [
+    {
+      "id": 1,
+      "businessId": 1,
+      "periodId": 1,
+      "points": [
+        {
+          "bucketId": 1,
+          "balanceMinor": 498549700,
+          "purchasesMinor": 18044900,
+          "paymentsMinor": 14834100
+        },
+        {
+          "bucketId": 2,
+          "balanceMinor": 450791900,
+          "purchasesMinor": 16477700,
+          "paymentsMinor": 4059700
+        },
+        {
+          "bucketId": 3,
+          "balanceMinor": 475145500,
+          "purchasesMinor": 14504200,
+          "paymentsMinor": 11637600
+        },
+        {
+          "bucketId": 4,
+          "balanceMinor": 496727900,
+          "purchasesMinor": 13820500,
+          "paymentsMinor": 3649300
+        },
+        {
+          "bucketId": 5,
+          "balanceMinor": 445824100,
+          "purchasesMinor": 13075100,
+          "paymentsMinor": 14462200
+        },
+        {
+          "bucketId": 6,
+          "balanceMinor": 472259700,
+          "purchasesMinor": 13249500,
+          "paymentsMinor": 2528800
+        },
+        {
+          "bucketId": 7,
+          "balanceMinor": 502101800,
+          "purchasesMinor": 9004300,
+          "paymentsMinor": 2621400
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "businessId": 1,
+      "periodId": 2,
+      "points": [
+        {
+          "bucketId": 8,
+          "balanceMinor": 498549700,
+          "purchasesMinor": 75187100,
+          "paymentsMinor": 61808700
+        },
+        {
+          "bucketId": 9,
+          "balanceMinor": 451107800,
+          "purchasesMinor": 60134000,
+          "paymentsMinor": 19701300
+        },
+        {
+          "bucketId": 10,
+          "balanceMinor": 474478200,
+          "purchasesMinor": 73046300,
+          "paymentsMinor": 51863200
+        },
+        {
+          "bucketId": 11,
+          "balanceMinor": 495151000,
+          "purchasesMinor": 62793200,
+          "paymentsMinor": 76881700
+        },
+        {
+          "bucketId": 12,
+          "balanceMinor": 445192600,
+          "purchasesMinor": 49931800,
+          "paymentsMinor": 9163400
+        },
+        {
+          "bucketId": 13,
+          "balanceMinor": 478817200,
+          "purchasesMinor": 39433100,
+          "paymentsMinor": 12117400
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "businessId": 1,
+      "periodId": 3,
+      "points": [
+        {
+          "bucketId": 14,
+          "balanceMinor": 350000000,
+          "purchasesMinor": 150000000,
+          "paymentsMinor": 130000000
+        },
+        {
+          "bucketId": 15,
+          "balanceMinor": 360000000,
+          "purchasesMinor": 155000000,
+          "paymentsMinor": 30000000
+        },
+        {
+          "bucketId": 16,
+          "balanceMinor": 500000000,
+          "purchasesMinor": 145000000,
+          "paymentsMinor": 34000000
+        },
+        {
+          "bucketId": 17,
+          "balanceMinor": 480000000,
+          "purchasesMinor": 100000000,
+          "paymentsMinor": 48000000
+        },
+        {
+          "bucketId": 18,
+          "balanceMinor": 475000000,
+          "purchasesMinor": 115000000,
+          "paymentsMinor": 92000000
+        },
+        {
+          "bucketId": 19,
+          "balanceMinor": 488000000,
+          "purchasesMinor": 145000000,
+          "paymentsMinor": 100000000
+        },
+        {
+          "bucketId": 20,
+          "balanceMinor": 475000000,
+          "purchasesMinor": 115000000,
+          "paymentsMinor": 32000000
+        },
+        {
+          "bucketId": 21,
+          "balanceMinor": 474000000,
+          "purchasesMinor": 128000000,
+          "paymentsMinor": 172000000
+        },
+        {
+          "bucketId": 22,
+          "balanceMinor": 476000000,
+          "purchasesMinor": 115000000,
+          "paymentsMinor": 121000000
+        },
+        {
+          "bucketId": 23,
+          "balanceMinor": 474000000,
+          "purchasesMinor": 106000000,
+          "paymentsMinor": 16000000
+        },
+        {
+          "bucketId": 24,
+          "balanceMinor": 471000000,
+          "purchasesMinor": 105000000,
+          "paymentsMinor": 20000000
+        },
+        {
+          "bucketId": 25,
+          "balanceMinor": 470000000,
+          "purchasesMinor": 106000000,
+          "paymentsMinor": 19000000
+        },
+        {
+          "bucketId": 26,
+          "balanceMinor": 477853200,
+          "purchasesMinor": 75000000,
+          "paymentsMinor": 23000000
+        }
+      ]
+    }
+  ]
+}

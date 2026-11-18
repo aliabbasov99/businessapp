@@ -3,12 +3,13 @@ import { router } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { useVideoPlayer, VideoView } from 'expo-video';
 import { useCallback, useEffect, useRef } from 'react';
-import { Platform, StyleSheet, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 
-const introVideo =
-  Platform.OS === 'ios'
-    ? require('@/assets/videos/intro.mov')
-    : require('@/assets/videos/intro.mp4');
+import { getPendingAuth } from '@/utils/pending-auth';
+
+// 21:9 portrait intro. `contentFit="cover"` fills 21:9 screens edge to edge
+// and crops the top and bottom on 16:9 screens.
+const introVideo = require('@/assets/videos/intro.mp4');
 
 export default function IntroScreen() {
   const player = useVideoPlayer(introVideo, playerInstance => {
@@ -22,13 +23,20 @@ export default function IntroScreen() {
   const goToLogin = useCallback(() => {
     if (hasNavigated.current) return;
     hasNavigated.current = true;
-    router.replace('/login');
+    (async () => {
+      // A pending account skips the login form entirely: open the approval
+      // screen and let it sign in automatically once the admin approves.
+      const pending = await getPendingAuth().catch(() => null);
+      router.replace(pending ? '/pending_approval' : '/login');
+    })();
   }, []);
 
   useEffect(() => {
+    // The intro runs for ~6.1s. Keep an extra second as a fallback in case
+    // playback never starts; `playToEnd` normally navigates first.
     const timer = setTimeout(() => {
       goToLogin();
-    }, 3200);
+    }, 7000);
 
     return () => clearTimeout(timer);
   }, [goToLogin]);
@@ -49,7 +57,7 @@ export default function IntroScreen() {
       <VideoView
         style={styles.video}
         player={player}
-        contentFit="contain"
+        contentFit="cover"
         nativeControls={false}
         playsInline
       />
@@ -60,7 +68,7 @@ export default function IntroScreen() {
 const styles = StyleSheet.create({
   screen: {
     flex: 1,
-    backgroundColor: '#FFFFFF',
+    backgroundColor: '#F2F2F2',
     justifyContent: 'center',
     alignItems: 'center',
   },

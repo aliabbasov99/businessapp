@@ -11,7 +11,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { BackIcon } from '@/components/login/back-icon';
 import { Fonts, getColors } from '@/constants/theme';
 
-const HERO_ASPECT_RATIO = 739 / 482;
+const HERO_ASPECT_RATIO = 737 / 477;
 
 export default function ForgotPasswordScreen() {
   const styles = useThemedStyles(createStyles);

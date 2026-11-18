@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/cloudflare/workers-sdk/main/packages/wrangler/config-schema.json",
+  "name": "businessappapi",
+  "main": "src/index.js",
+  "compatibility_date": "2026-11-10",
+  "observability": {
+    "enabled": true
+  },
+  "d1_databases": [
+    {
+      "binding": "USERS_D1",
+      "database_name": "users",
+      "database_id": "d707c229-ee5c-49a8-b1af-7aa496fd144a"
+    },
+    {
+      "binding": "MAIN_D1",
+      "database_name": "businessapp-main",
+      "database_id": "43d8df96-16cd-4060-97c4-a5c255befd20"
+    }
+  ]
+}

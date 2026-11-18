@@ -1,0 +1,7 @@
+{
+  "name": "google-credential",
+  "version": "0.1.0",
+  "description": "Android Credential Manager bridge for Google ID token sign-in.",
+  "main": "index.ts",
+  "private": true
+}

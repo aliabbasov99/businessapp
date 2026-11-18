@@ -1,0 +1,6 @@
+{
+  "platforms": ["android"],
+  "android": {
+    "modules": ["az.promar.businessapp.googlecredential.GoogleCredentialModule"]
+  }
+}

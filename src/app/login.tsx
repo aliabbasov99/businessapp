@@ -8,11 +8,16 @@ import { StatusBar } from 'expo-status-bar';
 import { useState } from 'react';
 import { ActivityIndicator, Alert, Image, KeyboardAvoidingView, Platform, Pressable, ScrollView, StyleSheet, TextInput, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { AppleIcon, PhoneIcon } from '@/components/login/social-icons';
+import { NetworkBanner, NetworkToast } from '@/components/login/network-status';
+import { AppleIcon, GoogleIcon, PhoneIcon } from '@/components/login/social-icons';
 import { Fonts, getColors } from '@/constants/theme';
+import { ApiError, loginWithPassword, type AuthResponse } from '@/data/api';
+import { useNetworkStatus } from '@/hooks/use-network-status';
+import { signInWithGoogle } from '@/utils/google-auth';
+import { finishLogin } from '@/utils/finish-login';
+import { savePendingAuth } from '@/utils/pending-auth';
 
-const HERO_ASPECT_RATIO = 739 / 482;
-const API_BASE = 'https://businessappapi.promar.workers.dev';
+const HERO_ASPECT_RATIO = 737 / 477;
 
 export default function LoginScreen() {
   const styles = useThemedStyles(createStyles);
@@ -24,36 +29,83 @@ export default function LoginScreen() {
   const [showPassword, setShowPassword] = useState(false);
   const [focusedField, setFocusedField] = useState<'email' | 'password' | null>(null);
   const [loading, setLoading] = useState(false);
+  const [googleLoading, setGoogleLoading] = useState(false);
+  const network = useNetworkStatus();
+
+  // Pending accounts are remembered locally so every later launch opens the
+  // approval screen instead of asking for the same credentials again.
+  async function goPending(token: string, fallbackEmail: string | null, provider: string) {
+    await savePendingAuth({ token, email: fallbackEmail, provider });
+    router.replace('/pending_approval');
+  }
 
   async function handleLogin() {
     if (!email.trim() || !password.trim()) {
       Alert.alert('Xəta', 'Zəhmət olmasa e-poçt və şifrəni daxil edin.');
       return;
     }
+    if (!network.requireOnline()) return;
 
     setLoading(true);
     try {
-      const res = await fetch(`${API_BASE}/api/login`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email: email.trim(), password }),
-      });
-
-      const data = await res.json();
-
-      if (res.ok && data.success && data.status === 'a') {
-        router.replace('/demo');
+      const data = await loginWithPassword(email, password);
+      if (data.success && data.status === 'a') {
+        await finishLogin(data.user);
       } else if (data.status === 'p') {
-        Alert.alert('Gözləyirik', 'Hesabınız admin təsdiqini gözləyir. Lütfən bir az gözləyin.');
+        if (data.pending_token) {
+          await goPending(data.pending_token, data.email ?? email.trim(), 'password');
+        } else {
+          Alert.alert('Gözləyirik', data.message || 'Hesabınız admin təsdiqini gözləyir. Lütfən bir az gözləyin.');
+        }
       } else if (data.status === 'r') {
         Alert.alert('Rədd edildi', 'Hesabınız rədd edilib. Əlaqə üçün administratora müraciət edin.');
       } else {
         Alert.alert('Xəta', data.message ?? 'E-poçt və ya şifrə yanlışdır.');
       }
-    } catch {
-      Alert.alert('Şəbəkə xətası', 'Serverə qoşulmaq mümkün olmadı. İnternet bağlantınızı yoxlayın.');
+    } catch (error) {
+      const data = error instanceof ApiError ? error.data as AuthResponse | null : null;
+      if (data?.status === 'p') {
+        if (data.pending_token) {
+          await goPending(data.pending_token, data.email ?? email.trim(), 'password');
+        } else {
+          Alert.alert('Gözləyirik', data.message || 'Hesabınız admin təsdiqini gözləyir.');
+        }
+      } else if (data?.status === 'r') {
+        Alert.alert('Rədd edildi', data.message || 'Hesabınız rədd edilib.');
+      } else if (error instanceof ApiError) {
+        Alert.alert('Şəbəkə xətası', error.message);
+      } else {
+        network.showToast('network.toast.server');
+      }
     } finally {
       setLoading(false);
+    }
+  }
+
+  async function handleGoogleLogin() {
+    if (!network.requireOnline()) return;
+
+    setGoogleLoading(true);
+    try {
+      const result = await signInWithGoogle();
+      if (result.status === 'cancelled') return;
+      if (result.status === 'pending') {
+        if (result.pendingToken) {
+          await goPending(result.pendingToken, result.email ?? null, 'google');
+        } else {
+          Alert.alert('Gözləyirik', result.message);
+        }
+        return;
+      }
+      if (result.status === 'rejected') {
+        Alert.alert('Rədd edildi', result.message);
+        return;
+      }
+      await finishLogin(result.user);
+    } catch (error) {
+      Alert.alert('Google xətası', error instanceof Error ? error.message : 'Google ilə giriş alınmadı.');
+    } finally {
+      setGoogleLoading(false);
     }
   }
 
@@ -61,6 +113,7 @@ export default function LoginScreen() {
     <View style={styles.root}>
       <StatusBar style="light" />
       <View style={[styles.statusBarFill, { height: insets.top }]} />
+      <NetworkBanner phase={network.phase} onRetry={network.retry} />
       <KeyboardAvoidingView
         style={styles.keyboardContainer}
         behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
@@ -81,7 +134,6 @@ export default function LoginScreen() {
           </View>
 
           <View style={styles.body}>
-            <View style={styles.handle} />
             <Text style={styles.title}>Hesabınıza daxil olun</Text>
 
             <View style={styles.firstFieldGroup}>
@@ -154,26 +206,47 @@ export default function LoginScreen() {
             <Text style={styles.or}>və ya davam edin</Text>
 
             <View style={styles.socials}>
+              {/* Apple ilə giriş yalnız iOS-da göstərilir. */}
+              {Platform.OS === 'ios' && (
+                <Pressable
+                  accessibilityRole="button"
+                  accessibilityLabel={t("Apple ilə davam edin")}
+                  hitSlop={6}
+                  onPress={() => Alert.alert('Apple ilə giriş', 'Apple ilə giriş hələ aktiv deyil. Zəhmət olmasa Google ilə daxil olun.')}
+                  style={({ pressed }) => [styles.socialButton, pressed && styles.pressed]}>
+                  <AppleIcon size={22} />
+                </Pressable>
+              )}
+              {/* Google ilə giriş */}
               <Pressable
                 accessibilityRole="button"
-                accessibilityLabel={t("Apple ilə davam edin")}
+                accessibilityLabel={t("Google ilə davam edin")}
+                disabled={googleLoading}
                 hitSlop={6}
-                style={({ pressed }) => [styles.socialButton, pressed && styles.pressed]}>
-                <AppleIcon size={22} />
+                onPress={() => { void handleGoogleLogin(); }}
+                style={({ pressed }) => [styles.socialButton, (pressed || googleLoading) && styles.pressed]}>
+                {googleLoading ? (
+                  <ActivityIndicator color={colors.brand} />
+                ) : (
+                  <GoogleIcon size={22} />
+                )}
               </Pressable>
-              {/* Google ilə giriş müvəqqəti söndürülüb (native modul, Expo Go live test) — geri qaytarmaq üçün: @react-native-google-signin/google-signin + bu düyməni bərpa et */}
-              <Pressable
-                accessibilityRole="button"
-                accessibilityLabel={t("Telefon ilə davam edin")}
-                hitSlop={6}
-                onPress={() => router.push('/login_page_phone')}
-                style={({ pressed }) => [styles.socialButton, pressed && styles.pressed]}>
-                <PhoneIcon size={22} />
-              </Pressable>
+              {/* Telefon ilə giriş mobil platformalarda (iOS + Android) göstərilir. */}
+              {Platform.OS !== 'web' && (
+                <Pressable
+                  accessibilityRole="button"
+                  accessibilityLabel={t("Telefon ilə davam edin")}
+                  hitSlop={6}
+                  onPress={() => Alert.alert('SMS ilə giriş', 'SMS ilə giriş hələ aktiv deyil. Zəhmət olmasa Google ilə daxil olun.')}
+                  style={({ pressed }) => [styles.socialButton, pressed && styles.pressed]}>
+                  <PhoneIcon size={22} />
+                </Pressable>
+              )}
             </View>
           </View>
         </ScrollView>
       </KeyboardAvoidingView>
+      <NetworkToast message={network.toast} bottom={Math.max(insets.bottom, 12) + 84} />
     </View>
   );
 }
@@ -197,7 +270,7 @@ const createStyles = (colors: ReturnType<typeof getColors>) => StyleSheet.create
   },
   content: {
     flexGrow: 1,
-    backgroundColor: colors.screenBg,
+    backgroundColor: colors.white,
   },
   hero: {
     width: '100%',
@@ -222,17 +295,6 @@ const createStyles = (colors: ReturnType<typeof getColors>) => StyleSheet.create
     shadowOffset: { width: 0, height: -5 },
     shadowOpacity: 0.04,
     shadowRadius: 12,
-    elevation: 6,
-  },
-  handle: {
-    position: 'absolute',
-    top: 11,
-    left: '50%',
-    width: 32,
-    height: 3,
-    marginLeft: -16,
-    borderRadius: 3,
-    backgroundColor: '#C4DAEC',
   },
   title: {
     fontFamily: Fonts.bold,

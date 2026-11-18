@@ -9,7 +9,10 @@
     "userInterfaceStyle": "automatic",
     "ios": {
       "icon": "./assets/expo.icon",
-      "bundleIdentifier": "az.promar.businessapp"
+      "bundleIdentifier": "az.promar.businessapp",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "package": "az.promar.businessapp",
@@ -27,12 +30,6 @@
     },
     "plugins": [
       "expo-router",
-      [
-        "@react-native-google-signin/google-signin",
-        {
-          "iosUrlScheme": "com.googleusercontent.apps.770057052741-p166265o1spsgv1cu7h3cscudg2om8f9"
-        }
-      ],
       [
         "expo-splash-screen",
         {

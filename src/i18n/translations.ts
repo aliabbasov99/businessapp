@@ -91,6 +91,16 @@ const az: Record<string, string> = {
   'profile.about.body': 'Satış, anbar və maliyyə göstəriciləri üçün biznes idarəetmə tətbiqi.',
   'profile.help': 'Kömək və dəstək',
   'profile.help.intro': 'PROMAR hesabı və bizneslərə çıxış.',
+  'network.offline.title': 'İnternet bağlantısı yoxdur',
+  'network.offline.subtitle': 'Daxil olmaq üçün internet bağlantısı lazımdır.',
+  'network.checking.title': 'Bağlantı yoxlanılır…',
+  'network.checking.subtitle': 'Bir neçə saniyə gözləyin…',
+  'network.success.title': 'Bağlantı bərpa olundu',
+  'network.success.subtitle': 'İnternet bağlantısı yenidən quruldu.',
+  'network.retry': 'Yenidən yoxla',
+  'network.toast.required': 'Bu əməliyyat üçün internet bağlantısı lazımdır.',
+  'network.toast.stillOffline': 'İnternet bağlantısı hələ yoxdur. Wi-Fi və ya mobil interneti yoxlayın.',
+  'network.toast.server': 'Serverə qoşulmaq mümkün olmadı. Yenidən yoxlayın.',
 };
 
 const en: Record<string, string> = {
@@ -173,6 +183,16 @@ const en: Record<string, string> = {
   'profile.about.body': 'Sales, warehouse and finance metrics in one place.',
   'profile.help': 'Help and support',
   'profile.help.intro': 'PROMAR account and businesses.',
+  'network.offline.title': 'No internet connection',
+  'network.offline.subtitle': 'An internet connection is required to sign in.',
+  'network.checking.title': 'Checking connection…',
+  'network.checking.subtitle': 'Please wait a moment…',
+  'network.success.title': 'Connection restored',
+  'network.success.subtitle': 'Your internet connection is working again.',
+  'network.retry': 'Check again',
+  'network.toast.required': 'An internet connection is required for this action.',
+  'network.toast.stillOffline': 'Still no internet connection. Check Wi-Fi or mobile data.',
+  'network.toast.server': 'Could not reach the server. Try again.',
 };
 
 const tr: Record<string, string> = {
@@ -255,6 +275,16 @@ const tr: Record<string, string> = {
   'profile.about.body': 'Satış, depo ve finans metrikleri tek yerde.',
   'profile.help': 'Yardım ve destek',
   'profile.help.intro': 'PROMAR hesabı ve işletmeler.',
+  'network.offline.title': 'İnternet bağlantısı yok',
+  'network.offline.subtitle': 'Giriş yapmak için internet bağlantısı gerekli.',
+  'network.checking.title': 'Bağlantı kontrol ediliyor…',
+  'network.checking.subtitle': 'Lütfen birkaç saniye bekleyin…',
+  'network.success.title': 'Bağlantı yeniden kuruldu',
+  'network.success.subtitle': 'İnternet bağlantısı tekrar çalışıyor.',
+  'network.retry': 'Tekrar kontrol et',
+  'network.toast.required': 'Bu işlem için internet bağlantısı gerekli.',
+  'network.toast.stillOffline': 'İnternet bağlantısı hâlâ yok. Wi-Fi veya mobil veriyi kontrol edin.',
+  'network.toast.server': 'Sunucuya ulaşılamadı. Tekrar deneyin.',
 };
 
 const ru: Record<string, string> = {
@@ -337,6 +367,16 @@ const ru: Record<string, string> = {
   'profile.about.body': 'Метрики продаж, склада и финансов.',
   'profile.help': 'Помощь и поддержка',
   'profile.help.intro': 'Аккаунт PROMAR и бизнесы.',
+  'network.offline.title': 'Нет подключения к интернету',
+  'network.offline.subtitle': 'Для входа требуется интернет.',
+  'network.checking.title': 'Проверка подключения…',
+  'network.checking.subtitle': 'Подождите несколько секунд…',
+  'network.success.title': 'Подключение восстановлено',
+  'network.success.subtitle': 'Интернет снова работает.',
+  'network.retry': 'Проверить снова',
+  'network.toast.required': 'Для этого действия требуется интернет.',
+  'network.toast.stillOffline': 'Интернет всё ещё недоступен. Проверьте Wi-Fi или мобильные данные.',
+  'network.toast.server': 'Не удалось подключиться к серверу. Попробуйте снова.',
 };
 
 export const translations: Record<LanguageCode, Record<string, string>> = {

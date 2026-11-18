@@ -27,8 +27,10 @@ function RootNavigator() {
         }}>
         <Stack.Screen name="index" options={{ animation: 'none' }} />
         <Stack.Screen name="login" options={{ animation: 'none' }} />
+        <Stack.Screen name="pending_approval" options={{ animation: 'none' }} />
         <Stack.Screen name="login_page_phone" />
         <Stack.Screen name="login_page_code" />
+        <Stack.Screen name="google-callback" options={{ animation: 'none' }} />
         <Stack.Screen name="forgot_password" />
         <Stack.Screen name="demo" options={{ animation: 'none' }} />
         <Stack.Screen name="profile" />

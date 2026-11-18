@@ -1,0 +1,5 @@
+def now = System.currentTimeMillis()
+def f = new File("C:/ali/projects/businessapp/jvm-clock-test.txt")
+f.text = "jvm millis=${now}\njvm date=${new Date(now)}\njvm zone=${java.time.ZoneId.systemDefault()}\n"
+f.setLastModified(now)
+println "GRADLE JVM: millis=${now} date=${new Date(now)} zone=${java.time.ZoneId.systemDefault()}"
